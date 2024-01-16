@@ -46,9 +46,13 @@ async function ensureCallsDirectory() {
 }
 
 function getGenerationTerms(generation: OpenAI.ChatCompletion) {
-  const terms = generation.choices.at(0)?.message.content?.split('\n').map((term) => term.trim()) ?? [];
+  const terms = generation.choices.at(0)?.message.content?.split('\n')
+    .map((term) => term.trim().toLowerCase())
+    .filter(term => term
+      && term.split(' ').length < 4
+      && !term.includes(':'))
+    ?? [];
   return terms;
-
 }
 
 const mistralClient = new MistralClient();
