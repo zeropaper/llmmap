@@ -1,0 +1,1 @@
+{"id":"f007af6704174f8e8e58e7bf929b6212","object":"chat.completion","created":1705382108,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"idea\ntheory\nnotion\nabstraction\nunderstanding\nperception\nframework\nparadigm\nmodel\nthought"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":134,"completion_tokens":28}}

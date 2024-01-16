@@ -1,0 +1,1 @@
+{"id":"7b226d15d22a4ec3b16ba705bdb8b5de","object":"chat.completion","created":1705382106,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"idea\nnotion\nprinciple\ntheory\nbelief\nmodel\nframework\nperspective\nscheme\nintuition"},"finish_reason":"stop"}],"usage":{"prompt_tokens":110,"total_tokens":137,"completion_tokens":27}}
