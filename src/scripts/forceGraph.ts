@@ -1,61 +1,88 @@
-
 import * as d3 from 'd3';
 
 // Copyright 2021-2023 Observable, Inc.
 // Released under the ISC license.
 // https://observablehq.com/@d3/force-directed-graph
 // slightly modified for TypeScript
-export function forceGraph({
-  nodes: rawNodes, // an iterable of node objects (typically [{id}, …])
-  links: rawLinks // an iterable of link objects (typically [{source, target}, …])
-}: {
+
+interface Data {
+  /** an iterable of node objects (typically [{id}, …]) */
   nodes: { id: string; group: number; }[];
+  /** an iterable of link objects (typically [{source, target}, …]) */
   links: { source: string; target: string; value: number; }[];
-}, {
-  nodeId = d => d.id, // given d in nodes, returns a unique identifier (string)
-  nodeGroup, // given d in nodes, returns an (ordinal) value for color
-  nodeGroups, // an array of ordinal values representing the node groups
-  nodeTitle, // given d in nodes, a title string
-  nodeFill = "currentColor", // node stroke fill (if not using a group color encoding)
-  nodeStroke = "#fff", // node stroke color
-  nodeStrokeWidth = 1.5, // node stroke width, in pixels
-  nodeStrokeOpacity = 1, // node stroke opacity
-  nodeRadius = 5, // node radius, in pixels
-  nodeStrength,
-  linkSource = ({ source }) => source, // given d in links, returns a node identifier string
-  linkTarget = ({ target }) => target, // given d in links, returns a node identifier string
-  linkStroke = "#999", // link stroke color
-  linkStrokeOpacity = 0.6, // link stroke opacity
-  linkStrokeWidth = 1.5, // given d in links, returns a stroke width in pixels
-  linkStrokeLinecap = "round", // link stroke linecap
-  linkStrength,
-  colors = d3.schemeTableau10 as string[], // an array of color strings, for the node groups
-  width = 640, // outer width, in pixels
-  height = 400, // outer height, in pixels
-  invalidation // when this promise resolves, stop the simulation
-}: {
+}
+
+interface Node {
+  /** given d in nodes, returns a unique identifier (string) */
   nodeId?: (d: any) => string;
+  /** given d in nodes, returns an (ordinal) value for color */
   nodeGroup?: (d: any) => string;
+  /** an array of ordinal values representing the node groups */
   nodeGroups?: string[];
+  /** given d in nodes, a title string */
   nodeTitle?: (d: any, i: number) => string;
+  /** node stroke fill (if not using a group color encoding) */
   nodeFill?: string;
+  /** node stroke color */
   nodeStroke?: string;
+  /** node stroke width, in pixels */
   nodeStrokeWidth?: number;
+  /** node stroke opacity */
   nodeStrokeOpacity?: number;
+  /** node radius, in pixels */
   nodeRadius?: number;
+  /** node strength */
   nodeStrength?: number;
+  /** given d in links, returns a node identifier string */
   linkSource?: (d: any) => string;
+  /** given d in links, returns a node identifier string */
   linkTarget?: (d: any) => string;
+  /** link stroke color */
   linkStroke?: string;
+  /** link stroke opacity */
   linkStrokeOpacity?: number;
-  linkStrokeWidth?: number | ((whatever: any) => number);
+  /** given d in links, returns a stroke width in pixels */
+  linkStrokeWidth?: number | ((d: any) => number);
+  /** link stroke linecap */
   linkStrokeLinecap?: string;
+  /** link strength */
   linkStrength?: number;
+  /** an array of color strings, for the node groups */
   colors?: string[];
+  /** outer width, in pixels */
   width?: number;
+  /** outer height, in pixels */
   height?: number;
+  /** when this promise resolves, stop the simulation */
   invalidation?: Promise<any>;
-} = {}) {
+}
+
+export function forceGraph({
+  nodes: rawNodes,
+  links: rawLinks,
+}: Data, {
+  nodeId = d => d.id,
+  nodeGroup,
+  nodeGroups,
+  nodeTitle,
+  nodeFill = "currentColor",
+  nodeStroke = "#fff",
+  nodeStrokeWidth = 1.5,
+  nodeStrokeOpacity = 1,
+  nodeRadius = 5,
+  nodeStrength,
+  linkSource = ({ source }) => source,
+  linkTarget = ({ target }) => target,
+  linkStroke = "#999",
+  linkStrokeOpacity = 0.6,
+  linkStrokeWidth = 1.5,
+  linkStrokeLinecap = "round",
+  linkStrength,
+  colors = d3.schemeTableau10 as string[],
+  width = 640,
+  height = 400,
+  invalidation
+}: Node = {}) {
   function intern(value: any) {
     return value !== null && typeof value === "object" ? value.valueOf() : value;
   }
@@ -71,7 +98,7 @@ export function forceGraph({
   const L = typeof linkStroke !== "function" ? null : d3.map(rawLinks, linkStroke);
 
   // Replace the input nodes and links with mutable objects for the simulation.
-  const nodes = d3.map(rawNodes, (_, i) => ({ id: N[i] }));
+  const nodes = d3.map(rawNodes, (_, i) => ({ id: N[i] as string }));
   const links = d3.map(rawLinks, (_, i) => ({ source: LS[i], target: LT[i] }));
 
   // Compute default domains.
