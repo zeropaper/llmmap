@@ -1,0 +1,12 @@
+---
+import { models } from '../data/models';
+---
+<nav>
+  <ul>
+    {models.map(model => (
+      <li>
+        <a href={`/${model.modelName}`}>{model.modelName}</a>
+      </li>
+    ))}
+  </ul>
+</nav>

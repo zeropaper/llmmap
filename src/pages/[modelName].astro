@@ -1,18 +1,19 @@
 ---
+import Nav from '../components/Nav.astro'
+import { models } from '../data/models';
+
 import Layout from '../layouts/Layout.astro';
-import Nav from '../components/nav.astro';
+export function getStaticPaths() {
+  return models.map(({ modelName }) => ({ params: { modelName } }));
+}
+
+const model = models.find(({ modelName }) => modelName === Astro.params.modelName);
+
 ---
 
 <Layout title="Welcome to Astro.">
-	<main>
-		<p>
-			The goal of this project is to generate and compare the terms that large language models (for now OpenAI GPT-3 and Mistral) associate with each other.
-			<br />
-			This is done by generating a list of terms that are associated with a given term, and then iterate with the generated terms as starting term.
-		</p>
-    <p>
-      
-    </p>
+	<main data-model-name={model?.modelName}>
+		<h1>{model?.modelName || 'wrong model'}</h1>
     <div id="graph-container"></div>
     <Nav />
 	</main>
@@ -20,8 +21,8 @@ import Nav from '../components/nav.astro';
 
 <script>
   import { forceGraph } from '../scripts/forceGraph';
-
-  fetch('/json/terms/mistral-tiny.json')
+  const modelName = document.querySelector('[data-model-name]')?.getAttribute('data-model-name');
+  fetch(`/json/terms/${modelName}.json`)
     .then(response => response.json())
     .then((terms: Record<string, string[] | null>) => {
       document.getElementById('graph-container')!.appendChild(forceGraph({
@@ -37,15 +38,3 @@ import Nav from '../components/nav.astro';
     .catch(err => console.error(err));
 
 </script>
-
-<style>
-	main {
-		margin: auto;
-		padding: 1rem;
-		width: 800px;
-		max-width: calc(100% - 2rem);
-		color: white;
-		font-size: 20px;
-		line-height: 1.6;
-	}
-</style>
