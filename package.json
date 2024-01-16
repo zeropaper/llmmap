@@ -7,11 +7,17 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "collect-terms": "tsx scripts/collect-terms.ts"
   },
   "dependencies": {
     "@astrojs/check": "^0.4.1",
+    "@mistralai/mistralai": "^0.0.10",
+    "@types/node": "^20.11.2",
     "astro": "^4.1.2",
+    "dotenv": "^16.3.1",
+    "openai": "^4.24.7",
+    "tsx": "^4.7.0",
     "typescript": "^5.3.3"
   }
 }
