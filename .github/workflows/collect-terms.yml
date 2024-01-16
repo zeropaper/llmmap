@@ -10,6 +10,8 @@ jobs:
         node-version: [20]
     steps:
       - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.WORKFLOW_GIT_ACCESS_TOKEN }}
       - uses: pnpm/action-setup@v2
         with:
           version: 8
@@ -34,13 +36,4 @@ jobs:
           git config --global user.email "{{ env.CI_COMMIT_AUTHOR_EMAIL }}"
           git add public/json
           git commit -m "json update $(date +'%Y-%m-%d %H:%M:%S')"
-          - name: Add, commit, and push changes
-            env:
-              CI_COMMIT_AUTHOR_EMAIL: ${{ vars.CI_COMMIT_AUTHOR_EMAIL }}
-              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            run: |
-              git config --global user.name "GitHub Action"
-              git config --global user.email "{{ env.CI_COMMIT_AUTHOR_EMAIL }}"
-              git add public/json
-              git commit -m "json update $(date +'%Y-%m-%d %H:%M:%S')"
-              git push
+          git push
