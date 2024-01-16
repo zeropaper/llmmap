@@ -1,0 +1,1 @@
+{"id":"78f054511c5c4af8bd275a9262a715f3","object":"chat.completion","created":1705396565,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"shift\ntheory\nexample\nmodel\nphilosophy\nscience\nchange\nthinking\nworldview\nKuhn"},"finish_reason":"stop"}],"usage":{"prompt_tokens":108,"total_tokens":135,"completion_tokens":27}}
