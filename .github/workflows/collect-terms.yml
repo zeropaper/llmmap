@@ -1,0 +1,37 @@
+name: Collect terms
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        node-version: [20]
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "pnpm"
+      - name: Install dependencies
+        run: pnpm install
+        # This step is updating the content of public/json files
+      - name: Collect terms
+        env:
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: pnpm collect-terms
+      - name: Add, commit, and push changes
+        env:
+          CI_COMMIT_AUTHOR_EMAIL: ${{ vars.CI_COMMIT_AUTHOR_EMAIL }}
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "{{ env.CI_COMMIT_AUTHOR_EMAIL }}"
+          git add public/json
+          git commit -m "json update $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
