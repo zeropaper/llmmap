@@ -1,0 +1,1 @@
+{"id":"30ce6034444a4b39b817d29495b0c661","object":"chat.completion","created":1705526142,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"law\nregulation\ndecision\nguideline\nstatute\nbylaw\nordinance\ncommand\nprotocol\ndirective"},"finish_reason":"stop"}],"usage":{"prompt_tokens":110,"total_tokens":137,"completion_tokens":27}}
