@@ -1,0 +1,1 @@
+{"id":"3c8b305c1f81439eb20614e407020135","object":"chat.completion","created":1705493884,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"plan\ngoal\npurpose\naim\nobjective\ndesign\nmotive\nintentionality\nwill\nwish"},"finish_reason":"stop"}],"usage":{"prompt_tokens":110,"total_tokens":136,"completion_tokens":26}}
