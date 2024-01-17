@@ -1,0 +1,1 @@
+{"id":"8c51dd43e00f4690b3a638c146bb807b","object":"chat.completion","created":1705472210,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"creativity\nfantasy\ninspiration\ninventiveness\ndaydream\nfiction\nvision\ndreaming\nthinking\nintuition"},"finish_reason":"stop"}],"usage":{"prompt_tokens":110,"total_tokens":143,"completion_tokens":33}}
