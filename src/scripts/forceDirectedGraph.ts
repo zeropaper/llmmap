@@ -57,7 +57,7 @@ interface Node {
   invalidation?: Promise<any>;
 }
 
-export function forceGraph({
+export function forceDirectedGraph({
   nodes: rawNodes,
   links: rawLinks,
 }: Data, {
@@ -81,10 +81,40 @@ export function forceGraph({
   colors = d3.schemeTableau10 as string[],
   width = 640,
   height = 400,
-  invalidation
+  invalidation,
 }: Node = {}) {
   function intern(value: any) {
     return value !== null && typeof value === "object" ? value.valueOf() : value;
+  }
+
+  function ticked() {
+    link
+      .attr("x1", d => d.source.x)
+      .attr("y1", d => d.source.y)
+      .attr("x2", d => d.target.x)
+      .attr("y2", d => d.target.y);
+
+    node
+      .attr("cx", (d: any) => d.x)
+      .attr("cy", (d: any) => d.y);
+  }
+
+  function drag(simulation: any) {
+    return d3.drag()
+      .on("start", function dragstarted(event) {
+        if (!event.active) simulation.alphaTarget(0.3).restart();
+        event.subject.fx = event.subject.x;
+        event.subject.fy = event.subject.y;
+      })
+      .on("drag", function dragged(event) {
+        event.subject.fx = event.x;
+        event.subject.fy = event.y;
+      })
+      .on("end", function dragended(event) {
+        if (!event.active) simulation.alphaTarget(0);
+        event.subject.fx = null;
+        event.subject.fy = null;
+      });
   }
 
   // Compute values.
@@ -128,11 +158,15 @@ export function forceGraph({
   const link = svg.append("g")
     .attr("stroke", typeof linkStroke !== "function" ? linkStroke : null)
     .attr("stroke-opacity", linkStrokeOpacity)
-    .attr("stroke-width", typeof linkStrokeWidth !== "function" ? linkStrokeWidth : null)
+    .attr("stroke-width", typeof linkStrokeWidth !== "function"
+      ? linkStrokeWidth
+      : null)
     .attr("stroke-linecap", linkStrokeLinecap)
     .selectAll("line")
     .data(links)
-    .join("line");
+    .join("line")
+    .attr("data-source", (d: any) => d.source.id)
+    .attr("data-target", (d: any) => d.target.id);
 
   const node = svg.append("g")
     .attr("fill", nodeFill)
@@ -143,6 +177,7 @@ export function forceGraph({
     .data(nodes)
     .join("circle")
     .attr("r", nodeRadius)
+    .attr("data-id", (d: any) => d.id)
     .call(drag(simulation) as any);
 
   if (W) link.attr("stroke-width", ({ index: i }: any) => W[i] as any);
@@ -150,36 +185,6 @@ export function forceGraph({
   if (G && color) node.attr("fill", ({ index: i }: any) => color(G[i]) as any);
   if (T) node.append("title").text(({ index: i }: any) => T[i]);
   if (invalidation != null) invalidation.then(() => simulation.stop());
-
-  function ticked() {
-    link
-      .attr("x1", d => d.source.x)
-      .attr("y1", d => d.source.y)
-      .attr("x2", d => d.target.x)
-      .attr("y2", d => d.target.y);
-
-    node
-      .attr("cx", (d: any) => d.x)
-      .attr("cy", (d: any) => d.y);
-  }
-
-  function drag(simulation: any) {
-    return d3.drag()
-      .on("start", function dragstarted(event) {
-        if (!event.active) simulation.alphaTarget(0.3).restart();
-        event.subject.fx = event.subject.x;
-        event.subject.fy = event.subject.y;
-      })
-      .on("drag", function dragged(event) {
-        event.subject.fx = event.x;
-        event.subject.fy = event.y;
-      })
-      .on("end", function dragended(event) {
-        if (!event.active) simulation.alphaTarget(0);
-        event.subject.fx = null;
-        event.subject.fy = null;
-      });
-  }
 
   return Object.assign(svg.node() as any, { scales: { color } });
 }
