@@ -1,30 +1,35 @@
 ---
+import TermDetails from '../components/TermDetails.astro';
 import Layout from '../layouts/Layout.astro';
-import Nav from '../components/nav.astro';
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="LLMMap">
 	<main>
-		<p>
-			The goal of this project is to generate and compare the terms that large language models (for now OpenAI GPT-3 and Mistral) associate with each other.
-			<br />
-			This is done by generating a list of terms that are associated with a given term, and then iterate with the generated terms as starting term.
-		</p>
-    <p>
-      
-    </p>
+    <div class="intro">
+      <p>
+        The goal of this experiment is visualize terms that large language models (for now OpenAI GPT-3 and Mistral) associate with each other.
+        <br />
+        This is done by generating a list of terms that are associated with a given term, and then iterate with the generated terms as starting term.
+      </p>
+      <p>
+        Every 3 hours, the list of terms is updated and the graph is regenerated.
+      </p>
+    </div>
+
     <div id="graph-container"></div>
-    <Nav />
+    <TermDetails />
 	</main>
 </Layout>
 
 <script>
-  import { forceGraph } from '../scripts/forceGraph';
+  import { forceDirectedGraph } from '../scripts/forceDirectedGraph';
 
   fetch('/json/terms/mistral-tiny.json')
     .then(response => response.json())
     .then((terms: Record<string, string[] | null>) => {
-      document.getElementById('graph-container')!.appendChild(forceGraph({
+      const container = document.getElementById('graph-container')!;
+
+      container.appendChild(forceDirectedGraph({
         nodes: Object.keys(terms).map(term => ({ id: term, group: 1 })),
         links: Object.entries(terms).flatMap(([source, targets]) => targets ? targets.map(target => ({ source, target, value: 1 })) : [])
       }, {
@@ -32,20 +37,33 @@ import Nav from '../components/nav.astro';
         nodeGroup: d => d.group,
         nodeTitle: d => `${d.id}\n${d.group}`,
         linkStrokeWidth: l => Math.sqrt(l.value),
+        width: container.clientWidth,
+        height: container.clientHeight,
       }));
     })
     .catch(err => console.error(err));
-
 </script>
 
 <style>
-	main {
+  main {
+    position: relative;
+  }
+  
+	.intro {
 		margin: auto;
-		padding: 1rem;
 		width: 800px;
 		max-width: calc(100% - 2rem);
 		color: white;
-		font-size: 20px;
+		font-size: 1.25rem;
 		line-height: 1.6;
+    position: relative;
+    z-index: 1;
+    text-align: center;
 	}
+
+  #graph-container {
+    position: absolute;
+    z-index: 0;
+    inset: 0;
+  }
 </style>

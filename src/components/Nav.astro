@@ -1,10 +1,11 @@
 ---
 import { models } from '../data/models';
+const { className } = Astro.props;
 ---
-<nav>
+<nav class={className}>
   <ul>
     {models.map(model => (
-      <li>
+      <li class={Astro.params.modelName === model.modelName ? 'active' : null}>
         <a href={`/${model.modelName}`}>{model.modelName}</a>
       </li>
     ))}
