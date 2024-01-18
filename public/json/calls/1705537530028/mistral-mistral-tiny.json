@@ -1,0 +1,1 @@
+{"id":"84a638919e3d4d59a86f2f20b7404346","object":"chat.completion","created":1705537530,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"constitution\nstatute\njudge\ntrial\nverdict\ncrime\npenalty\njury\nprosecutor\ndefendant"},"finish_reason":"stop"}],"usage":{"prompt_tokens":110,"total_tokens":140,"completion_tokens":30}}
