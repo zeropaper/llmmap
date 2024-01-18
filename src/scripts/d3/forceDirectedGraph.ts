@@ -5,7 +5,7 @@ import * as d3 from 'd3';
 // https://observablehq.com/@d3/force-directed-graph
 // slightly modified for TypeScript
 
-interface Data {
+export interface ForceDirectedGraphData {
   /** an iterable of node objects (typically [{id}, …]) */
   nodes: { id: string; group: number; }[];
   /** an iterable of link objects (typically [{source, target}, …]) */
@@ -60,7 +60,7 @@ interface Node {
 export function forceDirectedGraph({
   nodes: rawNodes,
   links: rawLinks,
-}: Data, {
+}: ForceDirectedGraphData, {
   nodeId = d => d.id,
   nodeGroup,
   nodeGroups,
