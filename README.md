@@ -3,10 +3,13 @@
 This little experiment is aimed at visualizing the terms that LLMs are associating with each other.
 
 [Every 3 hours](./.github/workflows/collect-terms.yml),
-[10 terms are generated](./scripts/collect-terms.ts) based on a term that was previously generated,
+[10 terms are generated *](./scripts/collect-terms.ts) based on a term that was previously generated,
 for each LLM.
 
 You can see the result at [https://llmmap.vercel.app/](https://llmmap.vercel.app/).
+
+* At least, it's what the model is supposed to do, but sometimes the
+[model generates more than 10 terms](./public/json/calls/1705407474670/mistral-mistral-medium.json).
 
 ## Disclaimer
 

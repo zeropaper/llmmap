@@ -20,7 +20,9 @@ const modelName = model!.modelName;
 </Layout>
 
 <script>
-  import { forceDirectedGraph } from '../scripts/forceDirectedGraph';
+  import { forceDirectedGraph } from '../scripts/d3/forceDirectedGraph';
+  import { termsToGraphData } from '../scripts/termsToGraphData';
+  
   const modelName = document.querySelector('[data-model-name]')?.getAttribute('data-model-name');
   const detailsEl = document.querySelector<HTMLDivElement>('.term-details')!;
   function showDetails(term: string, sources: string[], targets: string[]) {
@@ -40,10 +42,8 @@ const modelName = model!.modelName;
     .then(response => response.json())
     .then((terms: Record<string, string[] | null>) => {
       const container = document.getElementById('graph-container')!;
-      const graph = forceDirectedGraph({
-        nodes: Object.keys(terms).map(term => ({ id: term, group: 1 })),
-        links: Object.entries(terms).flatMap(([source, targets]) => targets ? targets.map(target => ({ source, target, value: 1 })) : [])
-      }, {
+
+      const graph = forceDirectedGraph(termsToGraphData(terms), {
         nodeId: d => d.id,
         nodeGroup: d => d.group,
         nodeTitle: d => d.id,
