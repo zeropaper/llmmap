@@ -6,10 +6,14 @@
 <style>
   .term-details {
     position: absolute;
-    max-height: calc(100% - (var(--spacing, 0.5rem) * 2));
     overflow: auto;
-    left: var(--spacing, 0.5rem);
-    top: var(--spacing, 0.5rem);
+    max-height: calc(100% - (var(--spacing, 0.5rem) * 2));
+    top: var(--spacing);
+    left: var(--spacing);
+    background-color: color-mix(in srgb, var(--background-color), transparent 20%);
+    border: 1px solid color-mix(in srgb, var(--background-color), var(--color) 20%);
+    border-radius: var(--spacing);
+    padding: var(--spacing) calc(var(--spacing) * 3);
   }
   .term-details ul {
     padding: 0;
