@@ -1,5 +1,4 @@
-import { type ForceDirectedGraphData } from './d3/forceDirectedGraph';
-export { type ForceDirectedGraphData } from './d3/forceDirectedGraph';
+import { type ForceDirectedGraphData } from './types';
 
 export function termsToGraphData(
   terms: Record<string, string[] | null>

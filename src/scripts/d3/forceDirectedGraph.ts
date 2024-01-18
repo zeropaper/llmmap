@@ -1,16 +1,10 @@
 import * as d3 from 'd3';
+import type { ForceDirectedGraphData } from '../types';
 
 // Copyright 2021-2023 Observable, Inc.
 // Released under the ISC license.
 // https://observablehq.com/@d3/force-directed-graph
 // slightly modified for TypeScript
-
-export interface ForceDirectedGraphData {
-  /** an iterable of node objects (typically [{id}, …]) */
-  nodes: { id: string; group: number; }[];
-  /** an iterable of link objects (typically [{source, target}, …]) */
-  links: { source: string; target: string; value: number; }[];
-}
 
 interface Node {
   /** given d in nodes, returns a unique identifier (string) */
