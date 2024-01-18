@@ -41,10 +41,11 @@ import Layout from '../layouts/Layout.astro';
     .then((response) => response.json())
     .then((terms: Record<string, string[] | null>) => {
       const container = document.getElementById('graph-container')!;
+      const currentColor = getComputedStyle(container).color;
       const graph = forceDirectedGraph(termsToGraphData(terms), {
         nodeId: (d) => d.id,
-        nodeGroup: (d) => d.group,
-        nodeTitle: (d) => `${d.id}\n${d.group}`,
+        nodeTitle: (d) => d.id,
+        nodeFill: currentColor,
         linkStrokeWidth: (l) => Math.sqrt(l.value),
         width: container.clientWidth,
         height: container.clientHeight,
@@ -88,6 +89,7 @@ import Layout from '../layouts/Layout.astro';
   }
 
   #graph-container {
+    color: rgb(var(--accent-light));
     position: absolute;
     z-index: 0;
     inset: 0;
