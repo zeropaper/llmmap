@@ -1,0 +1,1 @@
+{"id":"6f351d141fe5460aaf1b4a50f6336ab7","object":"chat.completion","created":1705601821,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"viewpoint\nbelief\nperspective\njudgment\nstance\nsentiment\noutlook\nposition\nconviction\nmindset"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":134,"completion_tokens":28}}
