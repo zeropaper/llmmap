@@ -1,0 +1,1 @@
+{"id":"51b3b134690449ac99530e2f2c637b5d","object":"chat.completion","created":1705547779,"model":"mistral-small","choices":[{"index":0,"message":{"role":"assistant","content":"fairy\nunicorn\ngoblin\nelf\nsprite\ndragon\nghost\nyeti\ntroll\nmermaid"},"finish_reason":"stop"}],"usage":{"prompt_tokens":111,"total_tokens":141,"completion_tokens":30}}
