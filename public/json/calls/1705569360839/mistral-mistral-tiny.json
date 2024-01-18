@@ -1,0 +1,1 @@
+{"id":"ef254fc36f8f483d94b7e4cae5be0a02","object":"chat.completion","created":1705569361,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"base\npillar\nsupport\nestablishment\ngrant\ndonation\ninfrastructure\nfooting\norigin\nsubstructure"},"finish_reason":"stop"}],"usage":{"prompt_tokens":110,"total_tokens":138,"completion_tokens":28}}
