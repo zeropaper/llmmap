@@ -4,62 +4,88 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="LLMMap">
-	<main>
+  <main>
     <div class="intro">
+      <h1>LLMMap</h1>
       <p>
-        The goal of this experiment is visualize terms that large language models (for now OpenAI GPT-3 and Mistral) associate with each other.
+        The goal of this experiment is to visualize terms that large language
+        models associate with each other.
         <br />
-        This is done by generating a list of terms that are associated with a given term, and then iterate with the generated terms as starting term.
+        This is done by generating a list of terms that are associated with a given
+        term, and then iterate with the generated terms as starting term.
       </p>
       <p>
-        Every 3 hours, the list of terms is updated and the graph is regenerated.
+        Every 3 hours, the list of terms is updated and the graph is
+        regenerated.
+      </p>
+      <p>
+        More information about the project can be found on in the repository <a href="https://github.com/zeropaper/llmmap">README.md file on GitHub</a>.
       </p>
     </div>
 
     <div id="graph-container"></div>
     <TermDetails />
-	</main>
+  </main>
 </Layout>
 
 <script>
-  import { forceDirectedGraph } from '../scripts/forceDirectedGraph';
+  import { select as d3Select } from 'd3';
+
+  import {
+    forceDirectedGraph,
+  } from '../scripts/d3/forceDirectedGraph';
+
+  import { termsToGraphData } from '../scripts/termsToGraphData';
 
   fetch('/json/terms/mistral-tiny.json')
-    .then(response => response.json())
+    .then((response) => response.json())
     .then((terms: Record<string, string[] | null>) => {
       const container = document.getElementById('graph-container')!;
-
-      container.appendChild(forceDirectedGraph({
-        nodes: Object.keys(terms).map(term => ({ id: term, group: 1 })),
-        links: Object.entries(terms).flatMap(([source, targets]) => targets ? targets.map(target => ({ source, target, value: 1 })) : [])
-      }, {
-        nodeId: d => d.id,
-        nodeGroup: d => d.group,
-        nodeTitle: d => `${d.id}\n${d.group}`,
-        linkStrokeWidth: l => Math.sqrt(l.value),
+      const graph = forceDirectedGraph(termsToGraphData(terms), {
+        nodeId: (d) => d.id,
+        nodeGroup: (d) => d.group,
+        nodeTitle: (d) => `${d.id}\n${d.group}`,
+        linkStrokeWidth: (l) => Math.sqrt(l.value),
         width: container.clientWidth,
         height: container.clientHeight,
-      }));
+      });
+
+      container.appendChild(graph);
+      
+      const resizeObserver = new ResizeObserver((entries, observer) => {
+        for (const entry of entries) {
+          console.info('resize', entry.contentRect);
+          d3Select(entry.target)
+            .select('svg')
+            .attr('width', entry.contentRect.width)
+            .attr('height', entry.contentRect.height);
+        }
+      });
+      resizeObserver.observe(container);
     })
-    .catch(err => console.error(err));
+    .catch((err) => console.error(err));
 </script>
 
 <style>
   main {
     position: relative;
   }
-  
-	.intro {
-		margin: auto;
-		width: 800px;
-		max-width: calc(100% - 2rem);
-		color: white;
-		font-size: 1.25rem;
-		line-height: 1.6;
-    position: relative;
+
+  .intro {
+    margin: auto;
+    line-height: 1.6;
+    position: absolute;
     z-index: 1;
     text-align: center;
-	}
+    max-width: 40rem;
+    bottom: var(--spacing);
+    left: var(--spacing);
+    right: var(--spacing);
+    background-color: color-mix(in srgb, var(--background-color), transparent 20%);
+    border: 1px solid color-mix(in srgb, var(--background-color), var(--color) 20%);
+    border-radius: var(--spacing);
+    padding: var(--spacing) calc(var(--spacing) * 3);
+  }
 
   #graph-container {
     position: absolute;
