@@ -1,0 +1,1 @@
+{"id":"06993ecc35214ebd9dd4dac65610740a","object":"chat.completion","created":1705623947,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"painting\nsculpture\nphotography\ndrawing\nmusic\ndance\ntheater\nfilm\nliterature\narchitecture"},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":134,"completion_tokens":27}}
