@@ -1,0 +1,1 @@
+{"id":"55292c62f65f433fb438d4eff9d88d72","object":"chat.completion","created":1705634183,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"shift\ntheory\nperspective\nmodel\nframework\naxiom\nparadigm change\ndiscipline\nworldview\nepisteme"},"finish_reason":"stop"}],"usage":{"prompt_tokens":112,"total_tokens":143,"completion_tokens":31}}
