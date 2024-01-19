@@ -1,0 +1,1 @@
+{"id":"6e97c09f5b3c46d98abce33cba9d6dba","object":"chat.completion","created":1705655756,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"axiom\nhypothesis\nassumption\nproposal\npremise\ntheorem\nconjecture\nprinciple\naxiomatic\npostulation"},"finish_reason":"stop"}],"usage":{"prompt_tokens":111,"total_tokens":147,"completion_tokens":36}}
