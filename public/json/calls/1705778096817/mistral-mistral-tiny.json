@@ -1,0 +1,1 @@
+{"id":"d9f6f35ab2484b31bf60ef29daa065cf","object":"chat.completion","created":1705778097,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"prototype\nwireframe\ndesign\nmodel\ndummy\nblueprint\nlayout\nrendering\nsketch\nmodeling"},"finish_reason":"stop"}],"usage":{"prompt_tokens":111,"total_tokens":135,"completion_tokens":24}}
