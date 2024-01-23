@@ -1,0 +1,1 @@
+{"id":"dc33609fa6bb4bd79604d29566322f20","object":"chat.completion","created":1705969556,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"perspective\nscene\noutlook\ngaze\nsight\npanorama\npoint of view\nlandscape\nvision\noverview"},"finish_reason":"stop"}],"usage":{"prompt_tokens":110,"total_tokens":138,"completion_tokens":28}}
