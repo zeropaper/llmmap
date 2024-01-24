@@ -1,0 +1,1 @@
+{"id":"0e2a1872e27d4f4ab586d3761ce676cb","object":"chat.completion","created":1706109386,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"camera\nlens\ncomposition\nshutter speed\naperture\nISO\nlighting\nportrait\nlandscape\npost-processing"},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":137,"completion_tokens":30}}
