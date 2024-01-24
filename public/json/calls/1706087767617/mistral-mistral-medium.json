@@ -1,0 +1,1 @@
+{"id":"96cc8ade6e044dd693ce2ea049e71893","object":"chat.completion","created":1706087770,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"clothing\ntrend\nstyle\ndesigner\napparel\naccessory\nrunway\nmodel\nhaute couture\nstreetwear"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":136,"completion_tokens":30}}
