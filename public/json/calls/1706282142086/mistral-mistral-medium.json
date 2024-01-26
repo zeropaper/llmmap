@@ -1,0 +1,1 @@
+{"id":"6ec4f83d640e4fdf8e44d9d98cbc0ce8","object":"chat.completion","created":1706282144,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"illness\ndisease\ndiagnosis\ntreatment\npain\nfever\ncough\nrash\nfatigue\nheadache"},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":140,"completion_tokens":33}}
