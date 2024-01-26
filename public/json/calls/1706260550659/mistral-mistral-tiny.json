@@ -1,0 +1,1 @@
+{"id":"1919c041490d4fafbb9fd8550bba57ec","object":"chat.completion","created":1706260551,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"budget\ninvestment\npitch\nbid\noffer\nprospectus\ngrant\nsubsidy\nbid document\nfinancing plan"},"finish_reason":"stop"}],"usage":{"prompt_tokens":111,"total_tokens":142,"completion_tokens":31}}
