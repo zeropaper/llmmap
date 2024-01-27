@@ -1,0 +1,1 @@
+{"id":"b93f391d36f34234a12108b6b0b8f266","object":"chat.completion","created":1706382869,"model":"mistral-small","choices":[{"index":0,"message":{"role":"assistant","content":"conspiracy\nplan\nstrategy\ndeception\nfraud\nplot\nprogram\nproject\nplotting\nblueprint"},"finish_reason":"stop"}],"usage":{"prompt_tokens":110,"total_tokens":135,"completion_tokens":25}}
