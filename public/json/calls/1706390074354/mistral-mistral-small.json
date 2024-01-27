@@ -1,0 +1,1 @@
+{"id":"7798f298a8314f77b6a364a8dd0f54d6","object":"chat.completion","created":1706390076,"model":"mistral-small","choices":[{"index":0,"message":{"role":"assistant","content":"shift change viewpoint model framework example set assumption pattern perspective example end."},"finish_reason":"stop"}],"usage":{"prompt_tokens":112,"total_tokens":126,"completion_tokens":14}}
