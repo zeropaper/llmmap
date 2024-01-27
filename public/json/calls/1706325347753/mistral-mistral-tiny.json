@@ -1,0 +1,1 @@
+{"id":"a6c1b5cca52f40f18956713834ee3085","object":"chat.completion","created":1706325348,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"emotion\nhappy\nsad\nlove\nexcited\ncalm\nanxious\nfear\nproud\ndisgusted"},"finish_reason":"stop"}],"usage":{"prompt_tokens":110,"total_tokens":139,"completion_tokens":29}}
