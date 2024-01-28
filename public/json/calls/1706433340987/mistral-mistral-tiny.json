@@ -1,0 +1,1 @@
+{"id":"2ac330b9ff2f475da0c0def24717a72c","object":"chat.completion","created":1706433341,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"origin\nwell\nfountain\nspring\noriginator\nsupply\noriginative\nfoundation\nbeginning\norigination"},"finish_reason":"stop"}],"usage":{"prompt_tokens":110,"total_tokens":137,"completion_tokens":27}}
