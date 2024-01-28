@@ -1,0 +1,1 @@
+{"id":"bf6dc47f991b4952b8a21113585c985b","object":"chat.completion","created":1706476535,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"magic\nmyth\nimagination\nmake-believe\nfable\nlegend\nsupernatural\nfiction\nalchemy\nenchantment"},"finish_reason":"stop"}],"usage":{"prompt_tokens":110,"total_tokens":142,"completion_tokens":32}}
