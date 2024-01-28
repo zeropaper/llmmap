@@ -1,0 +1,1 @@
+{"id":"aaa6495d33db40d2b2bbaf87d45217e3","object":"chat.completion","created":1706444235,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"statement\nreporting\nmanagement\nanalysis\nplanning\nmarket\nbudgeting\ninvestment\nrisk\nprofit"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":133,"completion_tokens":27}}
