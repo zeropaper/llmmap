@@ -1,0 +1,1 @@
+{"id":"106b54eb5e9b48238e7bd6fd2f157eb8","object":"chat.completion","created":1706552180,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"government\nelection\ncampaign\npolicy\nlegislation\ndemocracy\npolitician\nvote\nlobbying\ndiplomacy"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":135,"completion_tokens":29}}
