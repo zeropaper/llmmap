@@ -1,0 +1,1 @@
+{"id":"edf32016cd924845a54d79adbdaa5b7c","object":"chat.completion","created":1706519745,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"sight\neyesight\nblindness\nperception\nperspective\nspectacle\nfocus\nview\ninsight\nblindspot"},"finish_reason":"stop"}],"usage":{"prompt_tokens":110,"total_tokens":139,"completion_tokens":29}}
