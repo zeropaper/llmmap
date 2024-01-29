@@ -1,0 +1,1 @@
+{"id":"62a29026e3984b1fb87d5e07a23f7984","object":"chat.completion","created":1706530659,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"sleep\nnightmare\ndaydream\nimagination\naspiration\nfantasy\nreverie\nslumber\nvision\ndrowsiness"},"finish_reason":"stop"}],"usage":{"prompt_tokens":111,"total_tokens":142,"completion_tokens":31}}
