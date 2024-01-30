@@ -1,0 +1,1 @@
+{"id":"4b1e16bf79b24b98bace8620ac5ca61b","object":"chat.completion","created":1706642077,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"subjective\ngoal\ntarget\naim\ncritera\nfact\n reality\nperspective\nobservable\nassessment"},"finish_reason":"stop"}],"usage":{"prompt_tokens":110,"total_tokens":135,"completion_tokens":25}}
