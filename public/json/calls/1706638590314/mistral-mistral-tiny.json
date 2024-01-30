@@ -1,0 +1,1 @@
+{"id":"038a6fde2c4c430d91db8cd88be0f013","object":"chat.completion","created":1706638590,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"objective\ngoal\ntarget\nintend\npurpose\nstrive\nfocus\nshoot\npursue\nintention"},"finish_reason":"stop"}],"usage":{"prompt_tokens":110,"total_tokens":137,"completion_tokens":27}}
