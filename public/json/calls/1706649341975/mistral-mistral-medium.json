@@ -1,0 +1,1 @@
+{"id":"533982a70350461187e12f63d2b7fd60","object":"chat.completion","created":1706649465,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"fiction\nliterature\nauthor\nnarrative\nplot\ncharacter\ngenre\npublishing\nmanuscript\nbest-seller"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":135,"completion_tokens":29}}
