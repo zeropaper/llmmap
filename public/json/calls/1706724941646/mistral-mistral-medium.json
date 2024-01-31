@@ -1,0 +1,1 @@
+{"id":"b9f46f0344144901916ee96ab8785227","object":"chat.completion","created":1706724944,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"story\nplot\ncharacter\ntheme\nconflict\narc\nsetting\nperspective\ngenre\ndialogue"},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":130,"completion_tokens":23}}
