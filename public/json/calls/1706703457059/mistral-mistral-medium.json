@@ -1,0 +1,1 @@
+{"id":"f1c3d9a377444077977089efbfa4eeae","object":"chat.completion","created":1706703462,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"literature\nmusic\nfilm\nsubgenre\nstyle\ncategory\nfiction\nnon-fiction\nart\ndrama"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":132,"completion_tokens":26}}
