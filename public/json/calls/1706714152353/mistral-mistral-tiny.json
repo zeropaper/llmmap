@@ -1,0 +1,1 @@
+{"id":"07850238a1e74a04945a48f839720ad9","object":"chat.completion","created":1706714152,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"racism\nsexism\nageism\nableism\nhomophobia\ntransphobia\nxenophobia\nprejudice\nsegregation\nstereotyping"},"finish_reason":"stop"}],"usage":{"prompt_tokens":110,"total_tokens":149,"completion_tokens":39}}
