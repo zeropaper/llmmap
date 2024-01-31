@@ -1,0 +1,1 @@
+{"id":"e675777201ed4ed8bb93df3820fd02d4","object":"chat.completion","created":1706670948,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"play\ntheatre\nacting\nscript\nstage\ntragedy\ncomedy\nperformance\nscreenplay\nplot"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":132,"completion_tokens":26}}
