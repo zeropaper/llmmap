@@ -1,0 +1,1 @@
+{"id":"e59a0ea3229a49dfac01eb01c2f58831","object":"chat.completion","created":1706768204,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"arrest\nwarrant\nanxiety\nfear\narrested person\ndetention\nsuspect\ngrasping\nseizure\ncapture"},"finish_reason":"stop"}],"usage":{"prompt_tokens":113,"total_tokens":147,"completion_tokens":34}}
