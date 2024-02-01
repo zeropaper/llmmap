@@ -1,0 +1,1 @@
+{"id":"b946498e3d0e41bea5e2e86d5ef4fb30","object":"chat.completion","created":1706822145,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"deduction\ninduction\nreasoning\nconclusion\nhypothesis\nevidence\nassumption\nlogic\npremise\nconjecture"},"finish_reason":"stop"}],"usage":{"prompt_tokens":111,"total_tokens":145,"completion_tokens":34}}
