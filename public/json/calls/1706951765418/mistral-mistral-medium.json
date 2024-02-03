@@ -1,0 +1,1 @@
+{"id":"2e372f3b10ab43cc8c5d5fcb018d666a","object":"chat.completion","created":1706951769,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"history\nchronology\nevent\nera\nperiod\ndate\ntimeframe\nmilestone\nduration\ndeadline"},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":131,"completion_tokens":24}}
