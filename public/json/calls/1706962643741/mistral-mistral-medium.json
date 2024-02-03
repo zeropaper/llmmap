@@ -1,0 +1,1 @@
+{"id":"9aa8cf34494c4e0d806c5f2af48d12f4","object":"chat.completion","created":1706962648,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"occasion\nfunction\nhappening\ngathering\ncelebration\nceremony\nfestival\nconcert\nconference\nparty"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":137,"completion_tokens":31}}
