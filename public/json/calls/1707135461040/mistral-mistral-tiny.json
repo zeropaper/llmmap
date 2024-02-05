@@ -1,0 +1,1 @@
+{"id":"ecd06ec0393f43ee89a63a6868f3e4bb","object":"chat.completion","created":1707135461,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"back up\nassist\nprop up\nreinforce\naid\ncrutches\nscaffold\nfoundation\nsafeguard\nbrace"},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":110,"total_tokens":142,"completion_tokens":32}}
