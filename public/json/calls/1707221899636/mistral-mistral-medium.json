@@ -1,0 +1,1 @@
+{"id":"816053d3e6a8472895de22c2bb2bb484","object":"chat.completion","created":1707221906,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"love\ndesire\nenthusiasm\ninterest\nobsession\nardor\nfervor\nzeal\ndevotion\nemotion"},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":106,"total_tokens":136,"completion_tokens":30}}
