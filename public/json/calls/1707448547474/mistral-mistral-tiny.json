@@ -1,0 +1,1 @@
+{"id":"0d3d13f9c84a436097898f535ac7cc06","object":"chat.completion","created":1707448547,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"summit\napex\npinnacle\nclimax\ncrest\nzenith\nplateau\npeaktime\npeakhour\npeakload"},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":110,"total_tokens":144,"completion_tokens":34}}
