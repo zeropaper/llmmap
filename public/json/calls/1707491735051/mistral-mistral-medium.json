@@ -1,0 +1,1 @@
+{"id":"e4dee36b03a24d539c98a56fbe201d23","object":"chat.completion","created":1707491739,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"summit\nmountain\nclimbing\nelevation\napex\npinnacle\nvertex\ncrest\nhill\nzenith"},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":106,"total_tokens":137,"completion_tokens":31}}
