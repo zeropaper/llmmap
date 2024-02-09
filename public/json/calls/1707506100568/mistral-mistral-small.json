@@ -1,0 +1,1 @@
+{"id":"783c2b3223be4c0aa8bd02a0103cb79b","object":"chat.completion","created":1707506101,"model":"mistral-small","choices":[{"index":0,"message":{"role":"assistant","content":"spook\nsupernatural\napparition\nhaunting\nspirit\nparanormal\nCasper\nectoplasm\npoltergeist\nScooby Doo"},"finish_reason":"stop"}],"usage":{"prompt_tokens":110,"total_tokens":147,"completion_tokens":37}}
