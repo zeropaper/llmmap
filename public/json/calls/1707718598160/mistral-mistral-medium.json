@@ -1,0 +1,1 @@
+{"id":"d830ab29fae246f4ae5346bb44fd342c","object":"chat.completion","created":1707718601,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"goal\nobjective\naim\nmarketing\ndemographic\nbullseye\narchery\nfocus\nretail\nshooting"},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":106,"total_tokens":136,"completion_tokens":30}}
