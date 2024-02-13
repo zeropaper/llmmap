@@ -1,0 +1,1 @@
+{"id":"f707061c1b3f4eacb75402d8b5f0532d","object":"chat.completion","created":1707783868,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"belief system\ngods\nspirituality\nfaith\ndeity\nworship\nprayer\nsanctuary\nrituals\ndogma"},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":110,"total_tokens":142,"completion_tokens":32}}
