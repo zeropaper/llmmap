@@ -1,0 +1,1 @@
+{"id":"c59ff7295ad54673ad768e626ecbfa3b","object":"chat.completion","created":1708010146,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"theology, doctrine, creed, belief, dogmatic, orthodoxy, heresy, tenet, canon, principle."},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":111,"total_tokens":139,"completion_tokens":28}}

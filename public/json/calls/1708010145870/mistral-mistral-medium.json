@@ -1,0 +1,1 @@
+{"id":"ca993a5e37fe4154926df904a3b4f147","object":"chat.completion","created":1708010156,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"game\ntoy\ntheatre\nplayground\ndrama\nrecreation\nsport\nact\nmusical\nrole-playing"},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":106,"total_tokens":136,"completion_tokens":30}}
