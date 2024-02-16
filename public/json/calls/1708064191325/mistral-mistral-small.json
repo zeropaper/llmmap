@@ -1,0 +1,1 @@
+{"id":"307e5e886295467c9a79cd03ec590d0a","object":"chat.completion","created":1708064192,"model":"mistral-small","choices":[{"index":0,"message":{"role":"assistant","content":"ghost\nmythical creature\ngod\nspirit\ndemons\nvampire\nwerewolf\nangel\nfairy\nmermaid"},"finish_reason":"stop"}],"usage":{"prompt_tokens":112,"total_tokens":143,"completion_tokens":31}}
