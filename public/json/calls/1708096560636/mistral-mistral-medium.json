@@ -1,0 +1,1 @@
+{"id":"25f4adab04a54d78b9636e7b2d60c1f9","object":"chat.completion","created":1708096564,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"countryside\nnature\nscenery\nmountains\nvalleys\nforests\nrivers\nfields\nhills\nskyline"},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":106,"total_tokens":138,"completion_tokens":32}}
