@@ -1,0 +1,1 @@
+{"id":"7f65ebd2000b4a08a9670d6a3b3f2071","object":"chat.completion","created":1708204531,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"stove\nbake\nroast\nbroil\nheat\nkitchen\nappliance\noven mitt\ntemperature\nrange"},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":107,"total_tokens":135,"completion_tokens":28}}
