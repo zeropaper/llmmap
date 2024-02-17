@@ -1,0 +1,1 @@
+{"id":"d2f4c5186efa46fb904dcf58cd3ae60e","object":"chat.completion","created":1708197277,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"oven\nkitchen\ncooktop\nburner\nrange\ngas\nelectric\ncookware\nheat\nflame"},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":107,"total_tokens":134,"completion_tokens":27}}
