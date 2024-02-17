@@ -1,0 +1,1 @@
+{"id":"cd722b767e7f4f249edc53b8237609c3","object":"chat.completion","created":1708161328,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"schedule\nbudget\nforecast\nstrategy\ntimeline\ndesign\nprogram\ngoal\nproposal\noutline"},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":110,"total_tokens":136,"completion_tokens":26}}

@@ -1,0 +1,1 @@
+{"id":"8ebdae9c0fbb43949020fa75b0a23ad2","object":"chat.completion","created":1708161331,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"flour\nyeast\noven\npastry\nbread\ncake\nmixer\ningredients\ndessert\nbaker"},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":107,"total_tokens":136,"completion_tokens":29}}
