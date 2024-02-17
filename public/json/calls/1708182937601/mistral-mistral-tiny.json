@@ -1,0 +1,1 @@
+{"id":"52edaf648c914384b6b0d2d1f1933aeb","object":"chat.completion","created":1708182937,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"terrain\nscenery\nview\ntopography\nnature\npainting\nseascape\ncityscape\nrural\nforest"},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":110,"total_tokens":140,"completion_tokens":30}}
