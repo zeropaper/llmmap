@@ -1,0 +1,1 @@
+{"id":"63670603e5cc49959387374c7ef0bc7f","object":"chat.completion","created":1708283643,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"actor\nmold\npour\nstatue\nperformer\nactor's gripe\ncaste\nset\nfilm\ntheater"},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":110,"total_tokens":139,"completion_tokens":29}}
