@@ -1,0 +1,1 @@
+{"id":"6f6a86bd3d954ff985eb3fff75b4f1b6","object":"chat.completion","created":1708290884,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"fungus\nspores\nmildew\nfermentation\nyeast\nmoldy\nmolding\ndecay\nalgae\nmoss"},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":110,"total_tokens":145,"completion_tokens":35}}
