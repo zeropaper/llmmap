@@ -1,0 +1,1 @@
+{"id":"74c858aeecd744a0a8f61ad29ffee949","object":"chat.completion","created":1708528557,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"marionette\nstring\nstage\nventriloquism\ncontrol\nshow\ndoll\nperformer\ntheater\nhandle"},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":111,"total_tokens":139,"completion_tokens":28}}
