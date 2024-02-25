@@ -1,0 +1,1 @@
+{"id":"cf1777f2f31b4107a8b6e1aafb1eeb4c","object":"chat.completion","created":1708852519,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"bus\nsubway\ntrain\ncommuter rail\ntaxi\nferry\nshuttle\ntram\nlight rail\nmonorail"},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":111,"total_tokens":141,"completion_tokens":30}}
