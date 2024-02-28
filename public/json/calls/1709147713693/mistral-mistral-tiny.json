@@ -1,0 +1,1 @@
+{"id":"4b4a16c402ec4c83aba7a69b4ceb10bc","object":"chat.completion","created":1709147713,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"Windows\nLinux\nmacOS\nUnix\nAndroid\niOS\nUbuntu\nChrome OS\nSolaris\nCentOS"},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":111,"total_tokens":142,"completion_tokens":31}}
