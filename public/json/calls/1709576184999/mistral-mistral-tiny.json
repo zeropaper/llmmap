@@ -1,0 +1,1 @@
+{"id":"b248d9baf6c343b0aef0e2e1df20ef61","object":"chat.completion","created":1709576185,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"bypass\non call\nreserve\nbackup\nidle\nready\nhold\nwaiting\nemergency\nstandstill"},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":111,"total_tokens":138,"completion_tokens":27}}
