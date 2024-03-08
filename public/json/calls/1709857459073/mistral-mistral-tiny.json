@@ -1,0 +1,1 @@
+{"id":"9941a953737b4662ace3cf1009e30f2e","object":"chat.completion","created":1709857459,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"spending\nexpenses\nincome\nbalance\nallocation\nsavings\ndeficit\nsurplus\nfinance\nplan"},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":110,"total_tokens":137,"completion_tokens":27}}
