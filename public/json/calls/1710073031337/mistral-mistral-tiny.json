@@ -1,0 +1,1 @@
+{"id":"b19040ca43ee4dbeb06c6a367c9e1060","object":"chat.completion","created":1710073031,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"fraud\ncon\nscam\ndeception\ncon artist\nswindler\nconfidence game\nextortion\nchisel\ndupe"},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":112,"total_tokens":142,"completion_tokens":30}}
