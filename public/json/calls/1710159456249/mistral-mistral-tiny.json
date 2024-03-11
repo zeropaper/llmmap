@@ -1,0 +1,1 @@
+{"id":"ce3e245303714c4684144c92789e165a","object":"chat.completion","created":1710159456,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"comedy\npunchline\nhumor\nprank\nsatire\njester\none-liner\nfunny\nsilly\nin joke"},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":110,"total_tokens":141,"completion_tokens":31}}
