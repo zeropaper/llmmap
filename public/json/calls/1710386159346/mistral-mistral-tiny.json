@@ -1,0 +1,1 @@
+{"id":"33f6f0470c574990952d2001df5491ab","object":"chat.completion","created":1710386159,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"car\ngas\nroad\nwheel\nkey\nparking\nspeed\nsteering\ngear\nrace","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":110,"total_tokens":133,"completion_tokens":23}}
