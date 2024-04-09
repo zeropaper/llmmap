@@ -1,0 +1,1 @@
+{"id":"eb8554fb815645ab946cf285642224a8","object":"chat.completion","created":1712622303,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"salt\npepper\nspice\nherb\nflavor\nmarinade\nblend\nshaker\nrub\nsauce","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":107,"total_tokens":138,"completion_tokens":31}}
