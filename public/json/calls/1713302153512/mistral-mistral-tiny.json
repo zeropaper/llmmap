@@ -1,0 +1,1 @@
+{"id":"e67744d4e42b4e1caabbfa78d96fa630","object":"chat.completion","created":1713302153,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"sleep\nrest\nnap\ndream\ndoze\nsiesta\nnighttime\nsomnolence\nrepose","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":111,"total_tokens":136,"completion_tokens":25}}
