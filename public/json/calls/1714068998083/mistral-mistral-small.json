@@ -1,0 +1,1 @@
+{"id":"154e963027fa4c2e8cfdc7afd0008974","object":"chat.completion","created":1714068999,"model":"mistral-small","choices":[{"index":0,"message":{"role":"assistant","content":"nose\neye\near\ntongue\nskin\nsmell\nsight\nhearing\ntaste\ntouch","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":111,"total_tokens":137,"completion_tokens":26}}
