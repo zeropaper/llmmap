@@ -1,0 +1,1 @@
+{"id":"9273f3dd554a4bd48ef7e043a37b06ab","object":"chat.completion","created":1714328188,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"hope\ndream\ndesire\npray\nyearn\nhopeful\nwishbone\nlonging\naspire","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":111,"total_tokens":138,"completion_tokens":27}}
