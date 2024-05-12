@@ -1,0 +1,1 @@
+{"id":"6c2ccade3cc54e15811713c441e31c13","object":"chat.completion","created":1715494605,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"hearing\near\nsound\nacoustics\nnoise\npitch\nfrequency\necho\namplifier","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":111,"total_tokens":134,"completion_tokens":23}}
