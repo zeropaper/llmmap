@@ -1,0 +1,1 @@
+{"id":"1e0ca820f75c4b8694d9e851b9b8afa7","object":"chat.completion","created":1715473668,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"taste\nflavor\npalate\ntongue\nsavor\nsweet\nbitter\nsalty\nspicy\numami","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":112,"total_tokens":141,"completion_tokens":29}}
