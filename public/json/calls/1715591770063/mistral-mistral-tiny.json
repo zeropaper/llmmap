@@ -1,0 +1,1 @@
+{"id":"595af1257be74cd99848b679b1f84bd5","object":"chat.completion","created":1715591770,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"taken\ngrabbed\nseized\nsnatched\ncatch\ngrip\nhold\ndetain\n arrest","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":110,"total_tokens":133,"completion_tokens":23}}
