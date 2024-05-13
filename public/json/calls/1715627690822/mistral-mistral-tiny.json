@@ -1,0 +1,1 @@
+{"id":"0791d6fa67364bac8559f03bac56a60a","object":"chat.completion","created":1715627691,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"bet\nrisk\nodds\nstake\nwin\nlose\ncasino\npoker\nlottery\ndice","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":106,"total_tokens":133,"completion_tokens":27}}
