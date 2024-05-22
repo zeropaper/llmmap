@@ -1,0 +1,1 @@
+{"id":"4cc74d0d87a848bba3132405241c25f2","object":"chat.completion","created":1716358616,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"ip address\nsubnet\nrouting\ntcp/ip\ndns\nhttp\nftp\nsmtp\nicmp\nnat","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":106,"total_tokens":133,"completion_tokens":27}}
