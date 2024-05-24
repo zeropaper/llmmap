@@ -1,0 +1,1 @@
+{"id":"204d83fd8eac4ad492d5dfd298d37c06","object":"chat.completion","created":1716510351,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"charter\nking\njohn\nbarons\n1215\nengland\nrights\nfeudal\nlaw\nhistory","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":108,"total_tokens":137,"completion_tokens":29}}
