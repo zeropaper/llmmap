@@ -1,0 +1,1 @@
+{"id":"2c59674967904d21bff51fc47a5444b5","object":"chat.completion","created":1716563773,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"hammer\ncourt\njudge\nstrike\nsession\norder\nbench\ngong\nbang\nmotion","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":106,"total_tokens":130,"completion_tokens":24}}
