@@ -1,0 +1,1 @@
+{"id":"c4c30326d6b840b6bb189628ac904191","object":"chat.completion","created":1716822977,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"charge\ncost\npayment\ntax\ntariff\nfine\nrate\nexpense\nlevy\npenalty","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":105,"total_tokens":130,"completion_tokens":25}}
