@@ -1,0 +1,1 @@
+{"id":"859a7b969e204b298c9bf57d763ee899","object":"chat.completion","created":1717319782,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"tower\nbeacon\nsea\ncoast\nship\nnavigation\nharbor\nisland\nkeeper\nfog","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":107,"total_tokens":132,"completion_tokens":25}}
