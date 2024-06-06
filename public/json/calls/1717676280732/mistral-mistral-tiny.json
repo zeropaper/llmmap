@@ -1,0 +1,1 @@
+{"id":"543ec03472ef473e888e18acd17c3ebd","object":"chat.completion","created":1717676280,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"stem\nbranch\ntree\nplant\nradical\nrhizome\nseed\nsoil\norigin\ntaproot","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":105,"total_tokens":130,"completion_tokens":25}}
