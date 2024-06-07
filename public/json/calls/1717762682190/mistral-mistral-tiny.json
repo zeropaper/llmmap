@@ -1,0 +1,1 @@
+{"id":"e9d4f280724a4e25a41b197a7e963686","object":"chat.completion","created":1717762682,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"anchor\nbuttress\nmast\npier\npiling\npost\nsupport\ntie-in\nwall\nsocket","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":107,"total_tokens":134,"completion_tokens":27}}
