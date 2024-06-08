@@ -1,0 +1,1 @@
+{"id":"d59f006664644fa09743454fed26d6c3","object":"chat.completion","created":1717838178,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"band\narm\nleg\nsports\nmetal\nelastic\nstrap\nsupport\nclasp\ncast","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":105,"total_tokens":128,"completion_tokens":23}}
