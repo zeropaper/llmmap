@@ -1,0 +1,1 @@
+{"id":"e779a7d15a8e4b3ab07909614338618c","object":"chat.completion","created":1718021866,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"verb\nhelping\nbe\nhave\ndo\nshall\nwill\nmust\ncan\nmay\ncould","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":106,"total_tokens":128,"completion_tokens":22}}
