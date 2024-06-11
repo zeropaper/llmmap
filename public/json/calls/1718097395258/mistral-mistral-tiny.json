@@ -1,0 +1,1 @@
+{"id":"88a5a896bcca413881a759aa00010ddd","object":"chat.completion","created":1718097395,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"beach\ndesert\ngrain\nsea\ndune\nocean\nquartz\ndry\nsilica\nshore","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":105,"total_tokens":132,"completion_tokens":27}}
