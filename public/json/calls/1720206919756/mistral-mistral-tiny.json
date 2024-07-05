@@ -1,0 +1,1 @@
+{"id":"4f7cfd8740ae490bbf582fe2ca33475a","object":"chat.completion","created":1720206919,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"rain\ntears\nleaves\nmilk\noil\nsweat\npaint\nwater\nink\nsnot","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":109,"total_tokens":136,"completion_tokens":27}}
