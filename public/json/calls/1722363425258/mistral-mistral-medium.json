@@ -1,0 +1,1 @@
+{"id":"3458cc6239374baf9ca6fcdfa3354545","object":"chat.completion","created":1722363427,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"tree\nlimb\ntwig\nleaf\nroot\nbark\nprune\nfork\nsprout\ngrowth","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":106,"total_tokens":133,"completion_tokens":27}}
