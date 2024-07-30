@@ -1,0 +1,1 @@
+{"id":"26a701a4ae324068bf881ae8d6456947","object":"chat.completion","created":1722330990,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"tree\ndog\nwood\nsound\nnoise\nrough\nouter layer\ncork\ntexture","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":107,"total_tokens":128,"completion_tokens":21}}
