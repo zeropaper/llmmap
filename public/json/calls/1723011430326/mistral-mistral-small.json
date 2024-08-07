@@ -1,0 +1,1 @@
+{"id":"c95e5eaa43954b2ead0ced30a7875bfb","object":"chat.completion","created":1723011431,"model":"mistral-small","choices":[{"index":0,"message":{"role":"assistant","content":"unicorn\ndragon\nmermaid\nminotaur\ncentaur\ngriffin\npegasus\nsphinx","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":112,"total_tokens":141,"completion_tokens":29}}
