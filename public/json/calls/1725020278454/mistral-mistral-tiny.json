@@ -1,0 +1,1 @@
+{"id":"9202cd6af3bf46418a18080e2f2d7497","object":"chat.completion","created":1725020278,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"dog\ncat\nbird\nfish\nhamster\nrabbit\nturtle\nferret\nguinea pig\nlizard","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":105,"total_tokens":132,"completion_tokens":27}}
