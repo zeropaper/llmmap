@@ -1,0 +1,1 @@
+{"id":"b1ed4c91063d4b63896904d684c5865b","object":"chat.completion","created":1725041838,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"pack\nlupine\ncanid\ngray\nwild\nalpha\nhowl\npup\nberber\nEurasian","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":105,"total_tokens":133,"completion_tokens":28}}
