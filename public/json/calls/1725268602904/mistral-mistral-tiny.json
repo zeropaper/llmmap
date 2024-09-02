@@ -1,0 +1,1 @@
+{"id":"6cdbf7ad4e96491fa6333f83b4e6b7f9","object":"chat.completion","created":1725268603,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"lichen\nfern\nmossy\nmoist\ndamp\nforest\ngarden\nrock\nsoil\ncarpet","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":106,"total_tokens":136,"completion_tokens":30}}
