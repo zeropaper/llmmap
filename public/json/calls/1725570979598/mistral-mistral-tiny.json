@@ -1,0 +1,1 @@
+{"id":"c591f75a4cfd47dbb32429fb7636a62f","object":"chat.completion","created":1725570979,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"music\ndance\nlore\ntale\nart\ncrafts\ntradition\ncustom\nstory\nsong","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":105,"total_tokens":131,"completion_tokens":26}}
