@@ -1,0 +1,1 @@
+{"id":"6758eef0825c4c389e61fc0308649aa3","object":"chat.completion","created":1725743783,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"rain\nice\nsleet\nblizzard\nflake\ncold\nwinter\nfrost\nslush\nsnowman","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":105,"total_tokens":135,"completion_tokens":30}}
