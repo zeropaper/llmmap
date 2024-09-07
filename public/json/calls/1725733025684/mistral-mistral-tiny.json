@@ -1,0 +1,1 @@
+{"id":"49bfa37b190b4fd69a6b28000ad9d6f0","object":"chat.completion","created":1725733026,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"ocean\nriver\nlake\nrain\nsnow\nsea\nice\nfountain\nstream","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":105,"total_tokens":127,"completion_tokens":22}}
