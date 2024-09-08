@@ -1,0 +1,1 @@
+{"id":"8e87a40f54b44c5abd4fa83ca54a64a1","object":"chat.completion","created":1725776236,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"hot\nwarm\nfreeze\nchill\nfrost\nsnow\nice\nheat\ntemperature\nweather","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":105,"total_tokens":132,"completion_tokens":27}}
