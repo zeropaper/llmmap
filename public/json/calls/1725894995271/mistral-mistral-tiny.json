@@ -1,0 +1,1 @@
+{"id":"d870bf4efd744f0a926603e947f231cb","object":"chat.completion","created":1725894995,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"food\nblanket\ngrass\noutdoor\nfamily\nparks\nbbq\nchairs\nfun\nweather","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":106,"total_tokens":132,"completion_tokens":26}}
