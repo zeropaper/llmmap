@@ -1,0 +1,1 @@
+{"id":"91f0fae0e55c43f3bf7b7c07cf3a180d","object":"chat.completion","created":1725905839,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"lemon\nsugar\nwater\nice\nrecipe\nbottle\nstand\nstraw\nsqueeze\nmix","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":106,"total_tokens":132,"completion_tokens":26}}
