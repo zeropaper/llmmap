@@ -1,0 +1,1 @@
+{"id":"74974dfb3f734943b930e124e8d9202c","object":"chat.completion","created":1727018175,"model":"mistral-small","choices":[{"index":0,"message":{"role":"assistant","content":"","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":112,"total_tokens":112,"completion_tokens":0}}
