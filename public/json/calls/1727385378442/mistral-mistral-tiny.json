@@ -1,0 +1,1 @@
+{"id":"240e60825c0f420cacf47a0d7cdf7184","object":"chat.completion","created":1727385379,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"apple\norange\nfruit\nseed\njuice\ngranate\nmolasses\naril\npunica\ntree","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":109,"total_tokens":139,"completion_tokens":30}}
