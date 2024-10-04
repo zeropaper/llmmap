@@ -1,0 +1,1 @@
+{"id":"7754684a45554a13bd0eb3d4b6490b33","object":"chat.completion","created":1728065843,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"stamp\nprint\nmark\nseal\nimpress\nemboss\netch\nstencil\nrubbing\nrelief","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":106,"total_tokens":131,"completion_tokens":25}}
