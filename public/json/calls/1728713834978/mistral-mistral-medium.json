@@ -1,0 +1,1 @@
+{"id":"49be7a85a659419293d8b365b5ec3d93","object":"chat.completion","created":1728713838,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"wheat\nbread\nbaking\ndough\npastry\ngrain\nmill\ngluten\nbaker\npantry","tool_calls":null},"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":107,"total_tokens":135,"completion_tokens":28}}
