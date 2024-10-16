@@ -1,0 +1,1 @@
+{"id":"75960de239d24d9bbeb3a60b337f6f3b","object":"chat.completion","created":1729113402,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"wifi\nfiber\ninternet\nspeed\ndata\nbandwidth\nrouter\nmodem\nprovider\nplan","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":130,"completion_tokens":24}}
