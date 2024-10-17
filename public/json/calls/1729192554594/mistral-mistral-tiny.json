@@ -1,0 +1,1 @@
+{"id":"edd5a588b24b447abbe01ad8e8c8b8c1","object":"chat.completion","created":1729192555,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"truck\ntrain\ntaxi\ncar\nsubway\ncoach\nschool bus\ndouble-decker\nminibus\ntrolleybus","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":136,"completion_tokens":31}}
