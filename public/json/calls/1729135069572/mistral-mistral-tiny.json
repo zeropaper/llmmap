@@ -1,0 +1,1 @@
+{"id":"4545c902e1fc49218d9a15c22d83f6cc","object":"chat.completion","created":1729135069,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"mobile\ncellphone\ncalling\ntelephone\nservice\ninternet\nwireless\ncordless\nfixed\nline","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":131,"completion_tokens":25}}
