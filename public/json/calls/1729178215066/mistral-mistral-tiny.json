@@ -1,0 +1,1 @@
+{"id":"48ee05caf8624150b7a280649a71a452","object":"chat.completion","created":1729178215,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"bluetooth\nwifi\ncellular\nradio\nsignal\ntransmission\nreceiver\nantenna\ndata\nnetwork","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":131,"completion_tokens":25}}
