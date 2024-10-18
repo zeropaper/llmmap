@@ -1,0 +1,1 @@
+{"id":"72bccfa908784b25a6e9142582df3930","object":"chat.completion","created":1729253896,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"rocket\nspacecraft\norbiter\nlaunch\npayload\nmission\nastronaut\nNASA\nlift-off\nreentry","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":137,"completion_tokens":31}}
