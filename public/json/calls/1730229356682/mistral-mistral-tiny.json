@@ -1,0 +1,1 @@
+{"id":"511e3342855340c785a25704e1698fb8","object":"chat.completion","created":1730229356,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"goal\nchase\nseek\naim\nhunt\nchasing\npursuiting\ntarget\npersist\nseeking","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":132,"completion_tokens":27}}
