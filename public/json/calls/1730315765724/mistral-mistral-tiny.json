@@ -1,0 +1,1 @@
+{"id":"031e7cd422b94c05ba6ff040d9a8bbc6","object":"chat.completion","created":1730315766,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"atlas\naxis\nvertebrae\ncervical spine\nC1\nC2\nC3\nC7\ndisc\nnerve","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":110,"total_tokens":142,"completion_tokens":32}}
