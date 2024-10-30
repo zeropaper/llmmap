@@ -1,0 +1,1 @@
+{"id":"82f27e1432b44b2aa8a9ebb9310ba770","object":"chat.completion","created":1730290695,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"skull\nbrain\nforehead\ntemporal\nparietal\nfrontal\noccipital\nnasal\nethmoid\norbital","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":139,"completion_tokens":32}}
