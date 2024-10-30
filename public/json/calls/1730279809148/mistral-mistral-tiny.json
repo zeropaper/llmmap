@@ -1,0 +1,1 @@
+{"id":"98b817c047db4ad89d840d591ba07e6d","object":"chat.completion","created":1730279809,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"elbow\nknee\nshoulder\nhip\nwrists\nankles\nfingers\ntoes\ncarpal\ntarsal","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":137,"completion_tokens":31}}
