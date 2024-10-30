@@ -1,0 +1,1 @@
+{"id":"7cf1ed70c2004555bd255acf90af4357","object":"chat.completion","created":1730258283,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"exercise\ndrill\ntraining\nrepeat\nroutine\nhabit\nsession\nskills\nrehearsal\nstudy","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":132,"completion_tokens":27}}
