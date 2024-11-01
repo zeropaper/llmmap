@@ -1,0 +1,1 @@
+{"id":"81addfa42bcd4050ba71ccd4d6bfcf0a","object":"chat.completion","created":1730495770,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"brow\nhairline\ntemple\nskin\nbump\nwrinkle\ncrease\nscars\nfreckles\nbone","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":133,"completion_tokens":28}}
