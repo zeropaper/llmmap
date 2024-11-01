@@ -1,0 +1,1 @@
+{"id":"fe7122c190744f3daeb994650b140e31","object":"chat.completion","created":1730488583,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"mandible\nmaxilla\nteeth\nbone\nskull\ndentition\njaw\nmolar\nincisor\ncanine","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":136,"completion_tokens":30}}
