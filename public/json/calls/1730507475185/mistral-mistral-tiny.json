@@ -1,0 +1,1 @@
+{"id":"ada8b7e850b54b61b85c5c806bbc186d","object":"chat.completion","created":1730507475,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"church\nmosque\nshrine\nsanctuary\npagoda\nstupa\naltar\nicon\nrelic\nmonastery","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":136,"completion_tokens":31}}
