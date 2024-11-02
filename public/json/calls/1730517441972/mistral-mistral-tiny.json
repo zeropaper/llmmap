@@ -1,0 +1,1 @@
+{"id":"45559095cd9749bea72ed7b3f1505be1","object":"chat.completion","created":1730517442,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"Bridge\nSeptum\nSkin\nCartilage\nFracture\nBone\nNasal\nCavity\nSinus\nRhinoplasty","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":141,"completion_tokens":35}}
