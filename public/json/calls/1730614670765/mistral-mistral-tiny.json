@@ -1,0 +1,1 @@
+{"id":"4690b4aaec294d10871bf661ecc90194","object":"chat.completion","created":1730614671,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"pubis\niliac\nsacrum\ncoccyx\nfemur\ntibia\npatella\ngluteus\nsciatic\nischial tuberosity","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":145,"completion_tokens":38}}
