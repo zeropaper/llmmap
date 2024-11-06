@@ -1,0 +1,1 @@
+{"id":"bcf872a2773446c79872cbd02480a743","object":"chat.completion","created":1730906208,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"auricle\nconcha\nhelix\nantihelix\nlobule\ntragus\ncymba\ncrus\nhelix curl\nhelix fold","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":108,"total_tokens":142,"completion_tokens":34}}
