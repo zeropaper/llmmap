@@ -1,0 +1,1 @@
+{"id":"41369d383b004828aeac6d7fe1e99020","object":"chat.completion","created":1731006934,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"marrow\njoint\nvertebrae\nskull\nribcage\nphalange\ntibia\nulna\nclavicle\ncarpal","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":140,"completion_tokens":35}}
