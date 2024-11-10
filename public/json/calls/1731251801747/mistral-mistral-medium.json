@@ -1,0 +1,1 @@
+{"id":"d5fb93be09b240358fb788a64dcffd03","object":"chat.completion","created":1731251804,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","content":"script\ndrama\nstage\ntheatre\nact\nmonologue\ndialogue\nscreenwriting\ncharacter\nplot","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":132,"completion_tokens":25}}
