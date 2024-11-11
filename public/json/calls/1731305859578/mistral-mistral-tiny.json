@@ -1,0 +1,1 @@
+{"id":"920a017ac836425eb271ace31820b057","object":"chat.completion","created":1731305860,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"iphone\nipad\napp store\ndeveloper\nswift\nxcode\nios app\n jailbreak\ncydia\ncocoa touch","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":139,"completion_tokens":33}}
