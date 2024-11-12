@@ -1,0 +1,1 @@
+{"id":"0b5ae6806fb34c34a002d9fbaca0223a","object":"chat.completion","created":1731438937,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"CPU\nRAM\nGPU\nPCIe\nSATA\nM.2\nBIOS\nChipset\nSlot\nHeatsink","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":136,"completion_tokens":30}}
