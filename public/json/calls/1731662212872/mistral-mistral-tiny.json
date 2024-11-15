@@ -1,0 +1,1 @@
+{"id":"ffb566dd58cb466ea9fbb2c9230d1049","object":"chat.completion","created":1731662213,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"mail\ndelivery\nservice\nstamp\nletter\npackage\nsorting\noffice\ncourier\nmailbox","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":132,"completion_tokens":25}}
