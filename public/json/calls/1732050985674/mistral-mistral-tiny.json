@@ -1,0 +1,1 @@
+{"id":"15f09a98c5cd4ea5b05ad9e4ed51c8a4","object":"chat.completion","created":1732050986,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"you\nyour\nyours\nyourself\nyourselfs\nthou\nthine\nthou art\nthou shalt\nthou wilt","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":139,"completion_tokens":33}}
