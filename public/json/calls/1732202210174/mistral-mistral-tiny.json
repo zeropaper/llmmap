@@ -1,0 +1,1 @@
+{"id":"5420b46046904f649424ecdb9f7f9f6f","object":"chat.completion","created":1732202211,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"I, me, mine, my, we, us, our, ours, self, myself","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":126,"completion_tokens":19}}
