@@ -1,0 +1,1 @@
+{"id":"b59d7a82bd1741e1ba9b4b1e065597ba","object":"chat.completion","created":1732429095,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"degree\npi\ncircle\nangle\nsine\ncosine\ntangent\narc\ncircumference\ncentral angle","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":133,"completion_tokens":27}}
