@@ -1,0 +1,1 @@
+{"id":"ca9bd7b11e5949aa8ea8d02e80f90a87","object":"chat.completion","created":1733649450,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"glance\nlook\npeekaboo\nsneak\npeeked\npeeking\npeeker\npeekhole\npeekaboos\npeekabooing","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":145,"completion_tokens":39}}
