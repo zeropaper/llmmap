@@ -1,0 +1,1 @@
+{"id":"0ab80bab9727481c80be821a42cdd6a6","object":"chat.completion","created":1733660302,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"scan Nadir\nX-ray\nMRI\nCT\nultrasound\nsonogram\nDoppler\nthermogram\nEKG\nscanner","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":139,"completion_tokens":34}}
