@@ -1,0 +1,1 @@
+{"id":"a07462baf8a34020a3a1e9cdbb84e38a","object":"chat.completion","created":1733704583,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","content":"moon\nstar\n galaxies\nuniverse\nrocket\nastronaut\ncosmos\nnasa\nblack hole\nmilky way","tool_calls":null},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":133,"completion_tokens":28}}
