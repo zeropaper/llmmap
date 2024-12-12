@@ -1,0 +1,1 @@
+{"id":"ee0c727d1ce841a9bbe45c73fef67835","object":"chat.completion","created":1733963684,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"loneliness\nisolation\nquiet\npeace\nseclusion\nisolate\nalone\nsolo\nquietness\nsolitary"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":136,"completion_tokens":30}}
