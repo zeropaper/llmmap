@@ -1,0 +1,1 @@
+{"id":"a3a0409f584c472e85309aeedaf176ba","object":"chat.completion","created":1734038193,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"crisis\nhelp\naid\nambulance\n911\ndisaster\nfirst aid\nevacuation\nrescue\nurgent"},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":134,"completion_tokens":29}}
