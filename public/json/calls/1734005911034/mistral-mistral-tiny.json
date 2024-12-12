@@ -1,0 +1,1 @@
+{"id":"7737fcefdef849c295ff6eb088cad3d8","object":"chat.completion","created":1734005912,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"active\nbusy\nproductive\nworking\noccupied\nengaged\nlazy\ninactive\nunemployed\ndormant"},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":134,"completion_tokens":29}}
