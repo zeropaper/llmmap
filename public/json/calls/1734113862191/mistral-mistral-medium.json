@@ -1,0 +1,1 @@
+{"id":"6637578edae34c6084c8d86c3d1f4dd8","object":"chat.completion","created":1734113864,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"craving\nlust\npassion\nlonging\nyearning\nwish\nwant\ncovet\nappetite\naspiration"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":136,"completion_tokens":30}}
