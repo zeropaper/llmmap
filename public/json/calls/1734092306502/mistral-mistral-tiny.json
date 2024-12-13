@@ -1,0 +1,1 @@
+{"id":"b046ddf9c9e94d69af901b350db24c52","object":"chat.completion","created":1734092308,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"fight\nwar\nbattle\nsoldier\nweapon\ntactics\nstrategy\nconflict\nmilitary\nenemy"},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":134,"completion_tokens":29}}
