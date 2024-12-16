@@ -1,0 +1,1 @@
+{"id":"789dd7dafde44b7cb298e5964e596da6","object":"chat.completion","created":1734351514,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"sight\nseeing\npicture\nartwork\neye\nblind\nperception\ncolor\ndesign\nblindness"},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":131,"completion_tokens":26}}
