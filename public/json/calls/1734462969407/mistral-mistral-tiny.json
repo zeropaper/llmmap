@@ -1,0 +1,1 @@
+{"id":"36b65bc00b8a440dbe815c8d576606c1","object":"chat.completion","created":1734462969,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"sofa\ntable\nfurniture\nseat\ncouch\nstool\nbench\ndesk\nrecliner\narmchair"},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":133,"completion_tokens":28}}
