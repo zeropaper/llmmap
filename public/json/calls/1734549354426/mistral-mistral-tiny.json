@@ -1,0 +1,1 @@
+{"id":"6f4e5804a2b545a793a5661c49985cc4","object":"chat.completion","created":1734549354,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"sill\nmullion\ntransom\nmuntin\ntrim\nglass\npane\njamb\ncasement\nlintel"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":135,"completion_tokens":29}}
