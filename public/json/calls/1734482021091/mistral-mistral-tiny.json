@@ -1,0 +1,1 @@
+{"id":"5dd4e1e6043b408cbe5a73f8db5399f7","object":"chat.completion","created":1734482021,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"mattress\npillow\nsheet\nframe\nduvet\nblanket\nalarm\nnightstand\nheadboard\ncomforter"},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":133,"completion_tokens":28}}
