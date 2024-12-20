@@ -1,0 +1,1 @@
+{"id":"500ff0153a644803b4ebf480a02c7c52","object":"chat.completion","created":1734686198,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"miss\nmake\nfree\nthree-pointer\nbasketball\ngun\nvaccine\ninjection\nphotograph\nselfie"},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":134,"completion_tokens":29}}
