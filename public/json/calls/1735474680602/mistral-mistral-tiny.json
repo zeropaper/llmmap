@@ -1,0 +1,1 @@
+{"id":"f7ac150a73d34d8fb865d8d97c1a9b8b","object":"chat.completion","created":1735474680,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"agreement\ncontract\npromise\nobligation\ncommitment\npact\ntreaty\ncompact\noath\nvow"},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":136,"completion_tokens":29}}
