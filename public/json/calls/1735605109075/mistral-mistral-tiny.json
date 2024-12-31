@@ -1,0 +1,1 @@
+{"id":"947d30c709b7444a999ff8eb4233cb4f","object":"chat.completion","created":1735605109,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"friday\nsaturday\nsunday\nwork\ndayoff\nrelax\nfun\nbreak\nleisure\nhome"},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":131,"completion_tokens":26}}
