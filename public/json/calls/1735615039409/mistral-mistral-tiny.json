@@ -1,0 +1,1 @@
+{"id":"04223ea2fa794a02b0e7f0e99282c6f2","object":"chat.completion","created":1735615039,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"budget\nexpenses\nsavings\nmoney\ncost\ninvestment\ndebt\nincome\npurchase\nexpense"},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":134,"completion_tokens":29}}
