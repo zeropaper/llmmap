@@ -1,0 +1,1 @@
+{"id":"9e4332e4e61a4e77874d68f57cfe9f8f","object":"chat.completion","created":1735669041,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"surplus\nbudget\nshortfall\ngap\ndebt\nfunding\nfinance\nspending\nbalance\narrears"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":135,"completion_tokens":29}}
