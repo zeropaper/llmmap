@@ -1,0 +1,1 @@
+{"id":"b5332f0b15984b2793b1798153ec9f7e","object":"chat.completion","created":1735852573,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"map\ncountry\nlatitude\nlongitude\nclimate\nregion\nterrain\ncoastline\ncapital\nborder"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":133,"completion_tokens":27}}
