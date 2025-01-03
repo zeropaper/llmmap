@@ -1,0 +1,1 @@
+{"id":"26ce0eed30824d25a8f7bc1d71294f7b","object":"chat.completion","created":1735874244,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"property\ninheritance\nwill\ntrust\nprobate\nmansion\nland\nreal estate\nwealth\nheritage"},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":130,"completion_tokens":25}}
