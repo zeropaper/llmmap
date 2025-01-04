@@ -1,0 +1,1 @@
+{"id":"8f4e100050304b5a8b7519f5bd906c0c","object":"chat.completion","created":1735950676,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"spade\nscoop\nsnow\ngarden\ndirt\nexcavate\ndig\nload\nshovelful\nwheelbarrow"},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":138,"completion_tokens":31}}
