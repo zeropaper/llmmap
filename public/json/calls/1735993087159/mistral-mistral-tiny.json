@@ -1,0 +1,1 @@
+{"id":"c90e5071b0724d04a9da670b6e0912ee","object":"chat.completion","created":1735993087,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"plant\ngrass\ntree\nforest\nfoliage\nweeds\nmoss\nferns\nshrub\nherbs"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":134,"completion_tokens":28}}
