@@ -1,0 +1,1 @@
+{"id":"e2c3cbd151d4464d9b1f19d120f06555","object":"chat.completion","created":1735960636,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"shovel\ngarden\nleaves\nbroom\ntool\nyard\ngardening\nhoe\nrakehead\nraking"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":135,"completion_tokens":29}}
