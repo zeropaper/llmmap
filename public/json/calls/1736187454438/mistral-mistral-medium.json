@@ -1,0 +1,1 @@
+{"id":"916d2ff9d20340faa5c08a6ba5fd0830","object":"chat.completion","created":1736187456,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"dirt\nearth\nground\ncompost\nhumus\nloam\nclay\nsilt\nsand\ntopsoil"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":135,"completion_tokens":29}}
