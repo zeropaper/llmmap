@@ -1,0 +1,1 @@
+{"id":"927a863197fd4c8ca6de207aed3663be","object":"chat.completion","created":1736198180,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"fruit\nplant\ngarden\nharvest\norganic\nroot\nleafy green\ncruciferous\nstarchy\nlegume"},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":137,"completion_tokens":30}}
