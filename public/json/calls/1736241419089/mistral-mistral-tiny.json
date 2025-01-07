@@ -1,0 +1,1 @@
+{"id":"e0a3308afde74a4383c6ecb284b6c205","object":"chat.completion","created":1736241419,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"box\nshipment\ndelivery\nwrap\nmail\nparcel\ncarton\ncrate\nshipping\nexpress"},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":129,"completion_tokens":24}}
