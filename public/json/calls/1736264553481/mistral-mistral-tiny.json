@@ -1,0 +1,1 @@
+{"id":"8d8b2c7719e24f88bf37634e11f0fdaf","object":"chat.completion","created":1736264553,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"delivery\npackage\nmail\nservice\nexpress\nparcel\nshipping\nbike\nmotorbike\ndriver"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":130,"completion_tokens":24}}
