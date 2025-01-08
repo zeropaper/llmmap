@@ -1,0 +1,1 @@
+{"id":"f1da462a65f24dd484321fd2282df85f","object":"chat.completion","created":1736296344,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"offer\ncontract\nbid\nsensitive\nsoft\nyoung\nproposal\naffectionate\ntouch\npainful"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":134,"completion_tokens":28}}
