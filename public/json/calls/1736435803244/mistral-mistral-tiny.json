@@ -1,0 +1,1 @@
+{"id":"e8a32987002d45aba177b7a3e18ba2b7","object":"chat.completion","created":1736435803,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"pizzeria\ndelivery\ntoppings\ncheese\npepperoni\ncrust\noven\nsauce\ntakeout\ningredients"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":141,"completion_tokens":35}}

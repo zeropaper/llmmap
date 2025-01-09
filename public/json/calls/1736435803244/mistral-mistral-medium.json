@@ -1,0 +1,1 @@
+{"id":"71f012dc56be4d06b5a1dbefc58e14c7","object":"chat.completion","created":1736435805,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"quiet\nmurmur\nsoft\nsecret\nvoice\nbreath\nhushed\nspeak\nsotto voce\nconfide"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":133,"completion_tokens":27}}
