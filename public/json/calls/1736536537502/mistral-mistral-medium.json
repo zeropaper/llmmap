@@ -1,0 +1,1 @@
+{"id":"6a3edeaed5b44f1a91ceed4f98994bf2","object":"chat.completion","created":1736536540,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"mountain\nhill\nvalley\ncontour\ncrest\nescarpment\nslope\narete\nspur\ncrease"},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":137,"completion_tokens":30}}
