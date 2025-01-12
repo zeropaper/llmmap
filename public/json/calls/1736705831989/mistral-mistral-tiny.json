@@ -1,0 +1,1 @@
+{"id":"cb567efc01964ad290e607fe5cbe8529","object":"chat.completion","created":1736705832,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"nylon\ncotton\npolyester\nspandex\nrayon\nacrylic\npolypropylene\nlycra\nmodal\nviscose"},"finish_reason":"stop"}],"usage":{"prompt_tokens":108,"total_tokens":143,"completion_tokens":35}}
