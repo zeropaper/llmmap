@@ -1,0 +1,1 @@
+{"id":"d63e7fa60ca94989afb8247c1cd046a1","object":"chat.completion","created":1736975768,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"mountain\nskiing\nsnow\npeak\nglacier\nmeadow\nclimbing\nchalet\nibex\nedelweiss"},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":139,"completion_tokens":32}}
