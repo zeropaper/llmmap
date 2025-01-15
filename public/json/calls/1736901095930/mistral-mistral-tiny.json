@@ -1,0 +1,1 @@
+{"id":"c0973ff2152f43bebe9beb15a2c499d8","object":"chat.completion","created":1736901096,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"car\naccident\nroad\nemergency\nambulance\npolice\ndamage\nwreckage\ninjury\nhelp"},"finish_reason":"stop"}],"usage":{"prompt_tokens":110,"total_tokens":140,"completion_tokens":30}}
