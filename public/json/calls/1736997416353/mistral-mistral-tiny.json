@@ -1,0 +1,1 @@
+{"id":"0a84e93d99de466cb5449f9fc89b69bc","object":"chat.completion","created":1736997416,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"groom\nlake\ngrooming\nfishing\nresort\ntourism\ncamping\nboating\nmountain\nwinter"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":136,"completion_tokens":30}}
