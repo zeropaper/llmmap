@@ -1,0 +1,1 @@
+{"id":"f2ee61b72d9a4f4bbb3c9e21e04a9d81","object":"chat.completion","created":1737472608,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"fishing\nlure\nhook\ntrap\ndecoy\nbait\nangling\nfisherman\ncatch\ntackle"},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":135,"completion_tokens":28}}
