@@ -1,0 +1,1 @@
+{"id":"85d3f20f13d24d0ca0e23d6bdebf70c0","object":"chat.completion","created":1737645404,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"prank\nhoax\njoke\ngag\ntrick\nApril Fool's Day\ndeception\nhumor\nfunny\nmischief"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":141,"completion_tokens":35}}
