@@ -1,0 +1,1 @@
+{"id":"ae6273e1985244f080e03aa2b9d350b1","object":"chat.completion","created":1737839747,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"clown\nfool\ncourt\nentertainer\nking\nqueen\nmedieval\ncomedy\ncostume\njest"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":134,"completion_tokens":28}}
