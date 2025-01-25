@@ -1,0 +1,1 @@
+{"id":"9ec8b5ac5d5a4d23a15e69231411db93","object":"chat.completion","created":1737796594,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"fake\nfraudulent\nsham\nphony\ncounterfeit\ndeceptive\ndishonest\nuntrue\ndubious\nbunk"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":140,"completion_tokens":34}}
