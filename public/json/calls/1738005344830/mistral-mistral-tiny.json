@@ -1,0 +1,1 @@
+{"id":"08cfc1b5728441e69fe35b922ca73328","object":"chat.completion","created":1738005345,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"monarch\nspouse\npartner\nroyal\nnoble\nduchess\nduke\nqueen\nking\nconjugal"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":137,"completion_tokens":31}}
