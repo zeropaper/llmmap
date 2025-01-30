@@ -1,0 +1,1 @@
+{"id":"92214760e7434c0e81f66cd7b22a2f79","object":"chat.completion","created":1738217851,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"queen\nmonarch\ncastle\nroyalty\ncrown\nkingdom\nknight\nsubject\nsovereign\nreign"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":134,"completion_tokens":28}}
