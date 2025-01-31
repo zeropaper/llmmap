@@ -1,0 +1,1 @@
+{"id":"541745f470f0481ebe9c50ee45db21d2","object":"chat.completion","created":1738347444,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"plan\nsketch\ndraw\noutline\nlayout\nchart\ndiagram\nscheme\nitinerary\nblueprint"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":131,"completion_tokens":25}}
