@@ -1,0 +1,1 @@
+{"id":"f6a95a7984b24e8eb330ddf5c0f9f00d","object":"chat.completion","created":1738811836,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"sleep\nbear\nwinter\ndormancy\nanimals\ntorpor\nden\nwake up\nemergence\nspring"},"finish_reason":"stop"}],"usage":{"prompt_tokens":108,"total_tokens":135,"completion_tokens":27}}
