@@ -1,0 +1,1 @@
+{"id":"484b493a104a4701abeac1c8f106238d","object":"chat.completion","created":1739179011,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"substance\nalcohol\ndrug\nhabit\nrecovery\nwithdrawal\ncraving\naddict\nsober\ntreatment"},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":135,"completion_tokens":30}}
