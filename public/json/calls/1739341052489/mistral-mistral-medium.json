@@ -1,0 +1,1 @@
+{"id":"cd4219a8114c42dea66865023d708ff8","object":"chat.completion","created":1739341056,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"target\ngoal\nintention\nobjective\npurpose\nfocus\nshot\narrow\ndirection\naccuracy"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":130,"completion_tokens":24}}
