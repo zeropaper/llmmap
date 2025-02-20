@@ -1,0 +1,1 @@
+{"id":"04c83088e1d64a679037febf57ca28ad","object":"chat.completion","created":1740064619,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"root\nsacral\nsolar plexus\nheart\nthroat\nthird eye\ncrown\nkundalini\nenergy\nbalance"},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":139,"completion_tokens":32}}
