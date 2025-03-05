@@ -1,0 +1,1 @@
+{"id":"65925f9700ab4584bb0aad6c770b075c","object":"chat.completion","created":1741166223,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"inbox\noutbox\nspam\nsubject\nsender\nrecipient\nattachment\nCC\nBCC\nunsubscribe"},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":131,"completion_tokens":26}}
