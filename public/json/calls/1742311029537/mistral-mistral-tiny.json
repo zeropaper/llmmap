@@ -1,0 +1,1 @@
+{"id":"321fab45d9904f6c9de50cefa176a936","object":"chat.completion","created":1742311029,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"doll\ncar\npuzzle\nblock\nstuffed\nrobot\ngame\naction\npuppet\nmodel"},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":130,"completion_tokens":25}}
