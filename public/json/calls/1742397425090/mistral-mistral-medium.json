@@ -1,0 +1,1 @@
+{"id":"ebdf31dd4edc4132987b8dd40d18608b","object":"chat.completion","created":1742397427,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"chef\nkitchen\nrecipe\ningredient\nbake\nfry\nboil\nsaute\nstir-fry\nsimmer"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":138,"completion_tokens":32}}
