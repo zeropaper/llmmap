@@ -1,0 +1,1 @@
+{"id":"14ad7f3dc94e40c697aca9c4b6a6b608","object":"chat.completion","created":1742505393,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"stove\nburner\nelectric\ngas\ninduction\nkitchen\ncookware\noven\nhob\nrangehood"},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":134,"completion_tokens":27}}
