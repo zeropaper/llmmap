@@ -1,0 +1,1 @@
+{"id":"01be146215c44f5aa474af66d135140d","object":"chat.completion","created":1742517255,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"stove\ngas\nflame\nfire\nhot\ncooker\nheater\noven\ntorch\nblue flame"},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":133,"completion_tokens":26}}
