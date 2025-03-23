@@ -1,0 +1,1 @@
+{"id":"0aada57fe42d44fbbcd961e2ad8c3c1f","object":"chat.completion","created":1742710651,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"spice\nbark\nflavor\naromatic\ntree\nsweet\nroll\napple\npowder\nstick"},"finish_reason":"stop"}],"usage":{"prompt_tokens":109,"total_tokens":137,"completion_tokens":28}}
