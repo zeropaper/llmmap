@@ -1,0 +1,1 @@
+{"id":"30c42af6a6ad49e79e9fbe8526401a89","object":"chat.completion","created":1742757356,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"spice\nseasoning\nkitchen\nbaking\ncooking\ngrater\nflavor\nspice jar\nmace\nIndonesia"},"finish_reason":"stop"}],"usage":{"prompt_tokens":108,"total_tokens":140,"completion_tokens":32}}
