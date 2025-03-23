@@ -1,0 +1,1 @@
+{"id":"169ace2fe9bb4b02ad21860eac3db43a","object":"chat.completion","created":1742700224,"model":"mistral-medium","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"basil\ncinnamon\nparsley\nturmeric\ncoriander\noregano\nthyme\npaprika\nrosemary\ncumin"},"finish_reason":"stop"}],"usage":{"prompt_tokens":110,"total_tokens":149,"completion_tokens":39}}
