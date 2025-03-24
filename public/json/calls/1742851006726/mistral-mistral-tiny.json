@@ -1,0 +1,1 @@
+{"id":"87920e3a705a4f5ca0394bd37650c87e","object":"chat.completion","created":1742851006,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"accelerator\nbrooder\nhatchery\novum\nembryo\nhatchling\negg\nnest\nantenatal\nneonatal"},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":140,"completion_tokens":33}}
