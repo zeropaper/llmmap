@@ -1,0 +1,1 @@
+{"id":"14bc0861dbab491d903c2add328bce93","object":"chat.completion","created":1742905108,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"mortgage\ncredit\ndebt\ninterest\nbank\nborrow\nrepayment\ncollateral\ndefault\nrefinance"},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":131,"completion_tokens":26}}
