@@ -1,0 +1,1 @@
+{"id":"9a35f1d23f7a44a4a4df08c0baf4d2a8","object":"chat.completion","created":1742926667,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"revenue\nincome\ndeduction\nexemption\nrate\naudit\nrefund\nproperty\nsales\nfederal"},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":132,"completion_tokens":27}}
