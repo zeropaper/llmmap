@@ -1,0 +1,1 @@
+{"id":"16c75878606748e08b926f184ee59a78","object":"chat.completion","created":1743002231,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"brake\nclutch\npedal\nspeed\ngas\nthrottle\ndecelerate\nengine\nvehicle\ncontrol"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":134,"completion_tokens":28}}
