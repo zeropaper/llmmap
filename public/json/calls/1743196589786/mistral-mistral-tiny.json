@@ -1,0 +1,1 @@
+{"id":"0e437c78ccb342e6a1a490243321ef10","object":"chat.completion","created":1743196590,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"strategy\nmission\ntarget\naim\npurpose\nvision\ntactics\noutcome\nbenchmark\nmetric"},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":132,"completion_tokens":25}}
