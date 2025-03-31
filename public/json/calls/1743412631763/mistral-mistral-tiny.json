@@ -1,0 +1,1 @@
+{"id":"8e5391b7b8974de6928919dfa0e58989","object":"chat.completion","created":1743412632,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"freelance\ncontractor\ntask\nplatform\nupwork\nfiverr\nuber\nlyft\nairbnb\ndeliveroo"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":137,"completion_tokens":31}}
