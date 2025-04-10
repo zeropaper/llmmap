@@ -1,0 +1,1 @@
+{"id":"097bd772563c4f4b9935ee29b5a93cb8","object":"chat.completion","created":1744276625,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"groom\nwedding\ndress\nmaid\nreception\nveil\nring\nceremony\nbridesmaid\nflower"},"finish_reason":"stop"}],"usage":{"prompt_tokens":105,"total_tokens":135,"completion_tokens":30}}
