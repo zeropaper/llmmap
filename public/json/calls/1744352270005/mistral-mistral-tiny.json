@@ -1,0 +1,1 @@
+{"id":"71101a9a50bc4a1488368ed5bf408528","object":"chat.completion","created":1744352270,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"RSVP\nresponse\nparty\nguest\nmail\nemail\noccasion\naccept\ndecline\nevent"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":131,"completion_tokens":25}}
