@@ -1,0 +1,1 @@
+{"id":"ca39baa2717047749407b39063bbadba","object":"chat.completion","created":1744395465,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"gown\nveil\ntiara\nshoes\nveilpinion\nbouquet\njewelry\nsash\nheaddress\npetticoat"},"finish_reason":"stop"}],"usage":{"prompt_tokens":109,"total_tokens":145,"completion_tokens":36}}
