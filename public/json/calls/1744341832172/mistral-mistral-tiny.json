@@ -1,0 +1,1 @@
+{"id":"88fe389aba7c40ad99e5e2c834a6d567","object":"chat.completion","created":1744341832,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"song\nconcert\nperformance\nband\nalbum\ntheater\ndance\ncinema\ntelevision\nradio"},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":134,"completion_tokens":27}}
