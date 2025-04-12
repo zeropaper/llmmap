@@ -1,0 +1,1 @@
+{"id":"e7b5f1fa4b904b49aabafeeaff1c0f96","object":"chat.completion","created":1744460292,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"wedding\nmarriage\ncouple\nresort\nhotel\ntravel\nvacation\nromance\ndestination\nbliss"},"finish_reason":"stop"}],"usage":{"prompt_tokens":108,"total_tokens":137,"completion_tokens":29}}
