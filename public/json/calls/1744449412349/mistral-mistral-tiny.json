@@ -1,0 +1,1 @@
+{"id":"571b77ea16474ace86f3ee3f83c15767","object":"chat.completion","created":1744449412,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"groom\nwedding\nhusband\nbride\nmarriage\ngroomsman\nreception\nring\nvows\nceremony"},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":136,"completion_tokens":29}}
