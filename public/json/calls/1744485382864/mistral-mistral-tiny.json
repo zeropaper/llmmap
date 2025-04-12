@@ -1,0 +1,1 @@
+{"id":"0925af5f5bca48a6980d0e9974e9c401","object":"chat.completion","created":1744485383,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"wedding\nvenue\nguests\ntoast\nspeeches\nmenu\nplanner\ncaterer\nlocation\ninvitations"},"finish_reason":"stop"}],"usage":{"prompt_tokens":108,"total_tokens":136,"completion_tokens":28}}
