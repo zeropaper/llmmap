@@ -1,0 +1,1 @@
+{"id":"ff872a20f4b74be3a4c03d7252dbaf4c","object":"chat.completion","created":1744428097,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"brideprice\ngroom\nmarriage\ncustom\nproperty\ncultural\ninheritance\nbride\nfamily\nlaw"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":132,"completion_tokens":26}}
