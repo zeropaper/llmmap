@@ -1,0 +1,1 @@
+{"id":"9e6116b3b0fe4ee4bd22323acbff867c","object":"chat.completion","created":1744578977,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"ceremony\npromises\ncommitment\nlove\nring\nmarriage\npromise\nswear\nchurch\nreception"},"finish_reason":"stop"}],"usage":{"prompt_tokens":107,"total_tokens":134,"completion_tokens":27}}
