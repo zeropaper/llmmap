@@ -1,0 +1,1 @@
+{"id":"34886abb88374816a06c18b37ec179bf","object":"chat.completion","created":1744571749,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"bridal gown\nveil\ntulle\nlace\npetticoat\nsatin\nwhite\naltar dress\ntrain\nbustle"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":138,"completion_tokens":32}}
