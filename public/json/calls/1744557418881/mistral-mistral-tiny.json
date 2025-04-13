@@ -1,0 +1,1 @@
+{"id":"b5c80f5fdbcf4cc4872a956e971e9a6f","object":"chat.completion","created":1744557419,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"reception\nbride\ngroom\nofficiant\naltar\nvows\nring\nguests\nphotographer\nvenue"},"finish_reason":"stop"}],"usage":{"prompt_tokens":106,"total_tokens":135,"completion_tokens":29}}
