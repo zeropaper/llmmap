@@ -1,0 +1,1 @@
+{"id":"4e159588f6f14cdcbda0fbb1b385fb09","object":"chat.completion","created":1744654668,"model":"mistral-tiny","choices":[{"index":0,"message":{"role":"assistant","tool_calls":null,"content":"marriage\ncontract\nproperty\nassets\nspousal\nsupport\ndivorce\nlawyer\nestate\nfinances"},"finish_reason":"stop"}],"usage":{"prompt_tokens":109,"total_tokens":136,"completion_tokens":27}}
