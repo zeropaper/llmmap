@@ -1,6 +1,6 @@
 name: Collect terms
 on:
-  schedule:
+  # schedule:
   #  - cron: '9 0,3,6,9,12,15,18,19,21 * * *'
   workflow_dispatch:
 
